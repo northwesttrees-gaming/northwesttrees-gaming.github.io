@@ -131,3 +131,14 @@ html {
   color: #CCB77A;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
+
+.videoWrapper {
+  padding: 10px;
+  box-sizing: border-box;
+  resize: horizontal;
+  border: 1px dashed;
+  overflow: auto;
+  max-width: 100%;
+  height: calc(100vh - 16px);
+}
