@@ -8,8 +8,9 @@ body, html {
 }
 
 .background {
-  background-image: url("https://i.imgur.com/RUNLgH2.jpg");
-
+  background-color: #592E1C; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#1B0C06, #592E1C);
+  
   height: 100%;
 
   background-position: center;
@@ -24,17 +25,17 @@ body, html {
 
 a:link {
   text-decoration: none;
-  color: #ffff00;
+  color: #CCB77ACCB77A;
 }
 
 a:visited {
   text-decoration: none;
-  color: #ffff00;
+  color: #CCB77A;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ffff00;
+  color: #CCB77A;
 }
 
 a:active {
@@ -88,9 +89,10 @@ html {
 }
 
 .header {
-  background-color: #CCB77A;
-  color: #ffffff;
+  background-color: #9A5235;
+  color: #CCB77A;
   padding: 15px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .menu ul {
@@ -102,34 +104,37 @@ html {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #CCB77A;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #9A5235;
+  color: #CCB77A;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .menu li:hover {
   background-color: #D3BF89;
+  color: #9A5235;
 }
 
 .aside {
-  background-color: #CCB77A;
+  background-color: #9A5235;
   padding: 15px;
-  color: #ffffff;
+  color: #CCB77A;
   text-align: center;
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-  background-color: #CCB77A;
-  color: #ffffff;
+  background-color: #9A5235;
+  color: #CCB77A;
   text-align: center;
   font-size: 12px;
   padding: 15px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .article {
-  color: #ffffff;
+  color: #CCB77A;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 </style>
 </head>
@@ -150,15 +155,15 @@ html {
   <div class="col-6 col-s-9">
     <h1>Channel Trailer</h1>
     <p>Welcome to the official GitHub pages for NorthWestTrees Gaming!</p>
-	<div id="ytplayer"></div>
 
+    <div id="ytplayer" style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);"></div>
     <script>
     // Load the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/player_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
+	    
     // Replace the 'ytplayer' element with an <iframe> and
     // YouTube player after the API code downloads.
     var player;
