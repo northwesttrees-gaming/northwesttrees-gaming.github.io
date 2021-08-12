@@ -155,15 +155,15 @@ html {
   <div class="col-6 col-s-9">
     <h1>Channel Trailer</h1>
     <p>Welcome to the official GitHub pages for NorthWestTrees Gaming!</p>
-	<div id="ytplayer"></div>
 
-    <script style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);">
+    <div id="ytplayer" style="box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);"></div>
+    <script>
     // Load the IFrame Player API code asynchronously.
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/player_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
+	    
     // Replace the 'ytplayer' element with an <iframe> and
     // YouTube player after the API code downloads.
     var player;
