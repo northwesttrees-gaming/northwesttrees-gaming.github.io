@@ -49,10 +49,12 @@ a:active {
   width: 100%;
 }
 
-[class="video-desktop"] { display: none; }
-[class="video-tablet"] { display: none; }
-[class="video-mobile"] {display: none;}
-[class="video-mobile-tall"] { display: inline; float: left;}
+@media only screen and (min-width: 0px) {
+  .video-desktop {display: none;}
+  .video-tablet {display: none;}
+  .video-mobile {display: inline;}
+  .video-mobile-tall {display: inline;}
+}
 
 @media only screen and (min-width: 375px) {
   .video-desktop {display: none;}
