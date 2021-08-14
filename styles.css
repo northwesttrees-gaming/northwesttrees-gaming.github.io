@@ -53,12 +53,6 @@ a:active {
 [class="video-tablet"] { display: none; }
 [class="video-mobile"] { display: inline; float: left;}
 
-@media only screen and (min-width: px) {
-  .video-desktop {display: none;}
-  .video-tablet {display: none;}
-  .video-mobile {display: inline;}
-}
-
 @media only screen and (min-width: 600px) {
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
