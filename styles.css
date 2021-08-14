@@ -51,9 +51,9 @@ a:active {
 
 [class="video-desktop"] { display: none; }
 [class="video-tablet"] { display: none; }
-[class="video-mobile"] { display: inline; padding: 15px; float: left;}
+[class="video-mobile"] { display: inline; float: left;}
 
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: px) {
   .video-desktop {display: none;}
   .video-tablet {display: none;}
   .video-mobile {display: inline;}
