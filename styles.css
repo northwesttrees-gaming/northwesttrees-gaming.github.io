@@ -52,7 +52,7 @@ a:active {
 @media only screen and (min-width: 0px) {
   .video-desktop {display: none;}
   .video-tablet {display: none;}
-  .video-mobile {display: inline;}
+  .video-mobile {display: none;}
   .video-mobile-tall {display: inline;}
 }
 
