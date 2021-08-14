@@ -56,8 +56,8 @@ a:active {
 
 @media only screen and (min-width: 375px) {
   .video-desktop {display: none;}
-  .video-tablet {display: inline;}
-  .video-mobile {display: none;}
+  .video-tablet {display: none;}
+  .video-mobile {display: inline;}
   .video-mobile-tall {display: none;}
 }
 
