@@ -48,6 +48,7 @@ a:active {
   padding: 15px;
   width: 100%;
 }
+.videoplayer {width:550; height:309;}
 
 @media only screen and (min-width: 600px) {
   .col-s-1 {width: 8.33%;}
@@ -62,6 +63,7 @@ a:active {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  .videoplayer {width:825; height:463;}
 }
 
 @media only screen and (min-width: 768px) {
@@ -77,6 +79,7 @@ a:active {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .videoplayer {width:1100; height:618;}
 }
 
 html {
