@@ -107,7 +107,7 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-table {
+table, tr, th {
 width:100%;
 }
 
