@@ -107,9 +107,9 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-table, tr, th {
-width:100%;
-}
+.full-table {width:100%; height:auto;}
+.full-table > th {width:100%; height:auto;}
+.full-table > td {width:100%; height:auto;}
 
 .header {
   background-color: #9A5235;
