@@ -115,11 +115,12 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-.full-table, .full-table > th, .full-table > td {width:100%; height:auto;}
 .border-table, .border-table > th, .border-table > td {
   border-size: 2px;
   border-style: solid;
   border-color: #CCB77A;
+  width:100%; 
+  height:auto;
 }
 
 .header {
