@@ -20,7 +20,7 @@ body, html {
 
 a:link {
   text-decoration: none;
-  color: #CCB77ACCB77A;
+  color: #CCB77A;
 }
 
 a:visited {
@@ -30,11 +30,12 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  color: #CCB77A;
+  color: #9A5235;
 }
 
 a:active {
   text-decoration: none;
+  color: #9A5235;
 }
 
 .row:after {
