@@ -115,7 +115,7 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-.border-table, .border-table > th, .border-table > td {
+.border-table, .border-table th, .border-table td {
   border-size: 2px;
   border-style: solid;
   border-color: #CCB77A;
