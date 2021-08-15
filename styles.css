@@ -107,6 +107,10 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
+table {
+width:100%;
+}
+
 .header {
   background-color: #9A5235;
   color: #CCB77A;
