@@ -116,7 +116,11 @@ html {
 }
 
 .full-table, .full-table > th, .full-table > td {width:100%; height:auto;}
-.border-table, .border-table > th, .border-table > td {border:3px soild #CCB77A;}
+.border-table, .border-table > th, .border-table > td {
+  border-size: 2px;
+  border-style: solid;
+  border-color: #CCB77A;
+}
 
 .header {
   background-color: #9A5235;
