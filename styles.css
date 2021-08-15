@@ -115,9 +115,8 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 
-.full-table {width:100%; height:auto;}
-.full-table > th {width:100%; height:auto;}
-.full-table > td {width:100%; height:auto;}
+.full-table, .full-table > th, .full-table > td {width:100%; height:auto;}
+.border-table, .border-table > th, .border-table > td {border:3px soild #CCB77A;}
 
 .header {
   background-color: #9A5235;
