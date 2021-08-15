@@ -21,13 +21,14 @@ body, html {
 a:link, a:visited {
   color: #CCB77A;
   text-decoration: none;
-  padding: 0px 5px 0px 5px;
-  margion: 0px;
 }
 
 a:hover, a:active {
   color: #9A5235;
   text-decoration: underline;
+}
+
+.section-link {
   padding: 0px 5px 0px 5px;
   margion: 0px;
 }
