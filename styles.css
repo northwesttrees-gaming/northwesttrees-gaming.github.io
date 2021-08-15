@@ -18,24 +18,18 @@ body, html {
   box-sizing: border-box;
 }
 
-a:link {
+a:link, a:visited {
   color: #CCB77A;
   text-decoration: none;
+  padding: 5px;
+  margion: 0px;
 }
 
-a:visited {
-  color: #CCB77A;
-  text-decoration: none;
-}
-
-a:hover {
+a:hover, a:active {
   color: #9A5235;
   text-decoration: underline;
-}
-
-a:active {
-  color: #9A5235;
-  text-decoration: underline;
+  padding: 5px;
+  margion: 0px;
 }
 
 .row:after {
