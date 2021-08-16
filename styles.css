@@ -181,6 +181,15 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+.footer p, .footer p a {
+  font-size:15px;
+}
+
+.footer p a:hover, .footer p a:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 .section-link {
   padding: 10px 0px 10px 0px;
   margion: 0px;
