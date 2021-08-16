@@ -96,12 +96,11 @@ th.th-basic {
 
 /* Gallery Style */
 
-.gallery table, .gallery tr, .gallery th { width: 100%; }
-.gallery-column-0 td { width: 0px; }
-.gallery-column-1 td { width: 100%; }
-.gallery-column-2 td { width: 50%; }
-.gallery-column-3 td { width: 33.33%; }
-.gallery-column-0 td, .gallery-column-1 td, .gallery-column-2 td, .gallery-column-3 td, .gallery table, .gallery td, .gallery th { padding: 0px; margin: 0px; }
+div.gallery, div.gallery-row { width: 100%; }
+div.gallery-column-1 { width: 100%; }
+div.gallery-column-2 { width: 50%; }
+div.gallery-column-3 { width: 33.33%; }
+div.gallery-column-1, div.gallery-column-2, div.gallery-column-3, div.gallery, div.gallery-row { padding: 0px; margin: 0px; }
 
 
 
