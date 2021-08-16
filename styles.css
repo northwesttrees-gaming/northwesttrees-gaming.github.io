@@ -100,7 +100,7 @@ div.gallery, div.gallery-row { width: 100%; }
 div.gallery-column-1 { width: 100%; }
 div.gallery-column-2 { width: 50%; }
 div.gallery-column-3 { width: 33%; }
-div.gallery-column-1, div.gallery-column-2, div.gallery-column-3, div.gallery, div.gallery-row { padding: 0px; margin: 0px; }
+div.gallery-column-1, div.gallery-column-2, div.gallery-column-3, div.gallery, div.gallery-row { padding: 0px; margin: 0px; display:inline-block;}
 
 
 
