@@ -236,6 +236,8 @@ a:hover, a:active {
   padding: 20px 40px 20px 40px;
   color: #CCB77A;
   background-color: #9A5235;
+  border: 0px solid white;
+  border-radius: 5px;
 }
 
 .button a:hover {
@@ -243,4 +245,6 @@ a:hover, a:active {
   padding: 20px 40px 20px 40px;
   color: #9A5235;
   background-color: #D3BF89;
+  border: 0px solid white;
+  border-radius: 5px;
 }
