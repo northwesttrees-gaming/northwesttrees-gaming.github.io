@@ -1,50 +1,4 @@
-body, html {
-  height: 100%;
-}
-
-.article-bg {
-  background-color: #592E1C; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#1B0C06, #592E1C);
-  
-  height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.background {
-  background-image: url("https://i.imgur.com/RUNLgH2.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a:link, a:visited {
-  color: #CCB77A;
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  color: #9A5235;
-  text-decoration: underline;
-}
-
-.section-link {
-  padding: 10px 0px 10px 0px;
-  margion: 0px;
-}
-
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
-}
+/* Responsive Design */
 
 [class*="col-"] {
   float: left;
@@ -52,16 +6,18 @@ a:hover, a:active {
   width: 100%;
 }
 
-
 [class="video-desktop"] {
   display: none;
 }
+
 [class="video-tablet"] {
   display: none;
 }
+
 [class="video-mobile"] {
   display: none;
 }
+
 [class="video-mobile-tall"] {
   display: inline;
 }
@@ -111,17 +67,78 @@ a:hover, a:active {
   .video-mobile-tall {display: none;}
 }
 
-html {
-  font-family: "Lucida Sans", sans-serif;
+
+
+
+/* Table Style */
+
+table.table-basic {
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-.border-table, .border-table.th, .border-table.td {
-  border-size: 2px;
-  border-style: solid;
-  border-color: #CCB77A;
-  width:100%; 
-  height:auto;
+th.th-basic, td.td-basic {
+  text-align: left;
+  padding: 8px;
 }
+
+tr.tr-basic:nth-child(even){background: rgba(204, 183, 122, 0.3)}
+tr.tr-basic{background: rgba(204, 183, 122, 0.5)}
+
+th.th-basic {
+  background-color: #CCB77A;
+  color: white;
+}
+
+
+
+
+/* Site Properties */
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background-image: url("https://i.imgur.com/RUNLgH2.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+
+
+
+/* Font */
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link, a:visited {
+  color: #CCB77A;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #9A5235;
+  text-decoration: underline;
+}
+
+.section-link {
+  padding: 10px 0px 10px 0px;
+  margion: 0px;
+}
+
+
+
+
+/* Header Style */
 
 .header {
   background-color: #9A5235;
@@ -130,6 +147,10 @@ html {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+/* Menu Style */
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -149,6 +170,11 @@ html {
   color: #9A5235;
 }
 
+
+
+
+/* ASide Style */
+
 .aside {
   background-color: #9A5235;
   padding: 15px;
@@ -157,6 +183,11 @@ html {
   font-size: 14px;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+/* Footer Style */
 
 .footer {
   background-color: #9A5235;
@@ -167,7 +198,30 @@ html {
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+/* Article Style */
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .article {
   color: #CCB77A;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.article-bg {
+  background-color: #592E1C; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#1B0C06, #592E1C);
+  
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
