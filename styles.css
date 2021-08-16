@@ -120,6 +120,10 @@ body, html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 1.5px 1.5px 3.5px #000000;
+}
+
 a:link, a:visited {
   color: #CCB77A;
   text-decoration: none;
