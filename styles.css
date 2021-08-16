@@ -268,3 +268,8 @@ div.button:hover {
   border: 0px solid white;
   border-radius: 5px;
 }
+
+div.button p {
+  margin:0px;
+  padding:0px;
+}
