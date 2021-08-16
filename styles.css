@@ -225,3 +225,22 @@ a:hover, a:active {
   background-size: cover;
   background-attachment: fixed;
 }
+
+
+
+
+/* Button Style */
+
+.button a {
+  margion:0px;
+  padding: 20px 40px 20px 40px;
+  color: #CCB77A;
+  background-color: #9A5235;
+}
+
+.button a:hover {
+  margion:0px;
+  padding: 20px 40px 20px 40px;
+  color: #9A5235;
+  background-color: #D3BF89;
+}
