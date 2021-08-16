@@ -176,6 +176,11 @@ a:hover, a:active {
   text-decoration: underline;
 }
 
+.aside ul li a:hover, .aside ul li a:active {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
 .section-link {
   padding: 10px 0px 10px 0px;
   margion: 0px;
