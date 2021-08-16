@@ -100,7 +100,7 @@ div.gallery { width: 100%; display: inline-block; padding: 0px; margin: 0px; }
 div.gallery-row { width: 100%; display: inline-block; padding: 0px; margin: 0px; }
 div.gallery-column-1 { width: 100%; display: inline-block; padding: 0px; margin: 0px; }
 div.gallery-column-2 { width: 50%; display: inline-block; padding: 0px; margin: 0px; }
-div.gallery-column-3 { width: 33.3333%; display: inline-block; padding: 0px; margin: 0px; }
+div.gallery-column-3 { width: 33.333%; display: inline-block; padding: 0px; margin: 0px; }
 img.gallery { padding: 0px; margin: 0px; width: 100%; height: auto; }
 
 
