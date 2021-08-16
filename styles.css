@@ -255,6 +255,7 @@ div.button {
   background-color: #9A5235;
   border: 0px solid white;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 div.button:hover {
@@ -267,6 +268,7 @@ div.button:hover {
   background-color: #D3BF89;
   border: 0px solid white;
   border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 div.button p {
