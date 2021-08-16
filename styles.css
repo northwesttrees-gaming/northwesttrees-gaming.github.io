@@ -138,12 +138,12 @@ a:hover, a:active {
   padding: 10px 0px 10px 0px;
   margion: 0px;
 }
-h1 { font-size:55px; }
-h2 { font-size:45px; }
-h3 { font-size:36px; }
-h4 { font-size:28px; }
-h5 { font-size:21px; }
-h6 { font-size:15px; }
+h1 { font-size: 55px; }
+h2 { font-size: 45px; }
+h3 { font-size: 36px; }
+h4 { font-size: 28px; }
+h5 { font-size: 21px; }
+h6 { font-size: 15px; }
 
 
 
@@ -270,6 +270,6 @@ div.button:hover {
 }
 
 div.button p {
-  margin:0px;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
