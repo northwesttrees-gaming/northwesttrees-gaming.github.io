@@ -99,7 +99,7 @@ th.th-basic {
 div.gallery, div.gallery-row { width: 100%; display:inline-block; }
 div.gallery-column-1 { width: 100%; display:inline-block; }
 div.gallery-column-2 { width: 50%; display:inline-block; }
-div.gallery-column-3 { width: 33.33%; display:inline-block; }
+div.gallery-column-3 { width: 33.3333%; display:inline-block; }
 img.gallery, div.gallery-column-1, div.gallery-column-2, div.gallery-column-3, div.gallery, div.gallery-row { padding: 0px; margin: 0px; }
 
 
