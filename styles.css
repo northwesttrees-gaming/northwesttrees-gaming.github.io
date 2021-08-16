@@ -96,6 +96,7 @@ th.th-basic {
 
 /* Gallery Style */
 table.galery, tr.gallery { width: 100%; }
+td.gallery-column-0 { width:0%; }
 td.gallery-column-1 { width:100%; }
 td.gallery-column-2 { width:50%; }
 td.gallery-column-3 { width:33.33%; }
