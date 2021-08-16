@@ -232,7 +232,7 @@ a:hover, a:active {
 
 /* Button Style */
 
-.button a {
+.button div {
   margion:0px;
   padding: 20px 40px 20px 40px;
   color: #CCB77A;
@@ -241,7 +241,7 @@ a:hover, a:active {
   border-radius: 5px;
 }
 
-.button a:hover {
+.button div:hover {
   margion:0px;
   padding: 20px 40px 20px 40px;
   color: #9A5235;
