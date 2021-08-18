@@ -4,7 +4,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="../../../favicon.png"/>
   <link rel="stylesheet" href="../../../styles.css">
-  <link rel="stylesheet" href="auto-crafting-machine-recipes.css"> 
+  <link rel="stylesheet" href="auto-crafting-machine-recipes.css">
+  <script src="auto_crafting_recipe_buttons.js"></script>  
 </head>
 <body class="background">
 
@@ -25,8 +26,9 @@
   <div class="col-6 col-s-9 article-bg artical-body">
     <img src="https://i.imgur.com/djDCGn3.png" style="width:100%; height:auto;">
     <h3>AUTO CRAFTING MACHINE RECIPES</h3>
-	<button onclick="myFunction()">VIEW RECIPES</button>
-	<div id="spoilerGroup">
+	<div class="button" id="showbutton" style="display:block;" onclick="recipesShowPlanks()">SHOW PLANKS</div>
+	<div class="button" id="hidebutton" style="display:none;" onclick="recipesHidePlanks()">HIDE PLANKS</div>
+	<div id="spoilerGroup" style="display:none;">
 	
       <div style="display:block; float:left; width:100%;">
       <h4 id="oak-planks">OAK PLANKS</h4>
@@ -357,16 +359,8 @@
 	  </div>
 
     </div>
-	<script>
-      function myFunction() {
-        var x = document.getElementById("spoilerGroup");
-        if (x.style.display === "none") {
-        x.style.display = "none";
-        } else {
-		x.style.display = "block";
-        }
-      }
-    </script>
+
+	
   </div>
 
   <div class="col-3 col-s-12">
