@@ -1,0 +1,174 @@
+/* For mobile phones: */
+  .menu {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+  }
+  .menu-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px; 
+    width: 100%;
+
+  }
+  .menu-content {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .menu-content ul {
+    background-color: #151515;
+    background-image: linear-gradient(#151515, #353535);
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .menu-content ul li a {
+    color: #C9AF7A;
+    display: block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+  }
+  .menu-content ul li a.active {
+    background-color: #131313;
+    color: #FFFFFF;
+  }
+  .menu-content ul li a.inactive:hover {
+    background-color: #555555;
+    color: #FFFFFF;
+  }
+  .menu-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px; 
+    width: 100%;
+  }
+  .menu-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 18px 18px 18px 18px;
+    margin: 0px 0px 0px 0px; 
+  }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .menu {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px; 
+    display: inline-block;
+    height: 100%;
+  }
+  .menu-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px; 
+    width: 100%;
+
+  }
+  .menu-content {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .menu-content ul {
+    background-color: #151515;
+    background-image: linear-gradient(#151515, #353535);
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .menu-content ul li a {
+    color: #C9AF7A;
+    display: block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+  }
+  .menu-content ul li a.active {
+    background-color: #131313;
+    color: #FFFFFF;
+  }
+  .menu-content ul li a.inactive:hover {
+    background-color: #555555;
+    color: #FFFFFF;
+  }
+  .menu-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px; 
+    width: 100%;
+  }
+  .menu-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 18px 18px 18px 18px;
+    margin: 0px 0px 0px 0px; 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .menu {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+  }
+  .menu-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px; 
+    width: 100%;
+
+  }
+  .menu-content {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .menu-content ul {
+    background-color: #151515;
+    background-image: linear-gradient(#151515, #353535);
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .menu-content ul li a {
+    color: #C9AF7A;
+    display: block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+  }
+  .menu-content ul li a.active {
+    background-color: #131313;
+    color: #FFFFFF;
+  }
+  .menu-content ul li a.inactive:hover {
+    background-color: #555555;
+    color: #FFFFFF;
+  }
+  .menu-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px; 
+    width: 100%;
+  }
+  .menu-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 18px 18px 18px 18px;
+    margin: 0px 0px 0px 0px; 
+  }
+}

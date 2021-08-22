@@ -1,0 +1,129 @@
+/* ITEM TOOLTIP */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/* RECIPE BLOCK */
+
+.crafting-block { 
+  background-color: #C6C6C6;
+  margin: 0px 0px 30px 0px; padding: 15px; width: 365px; height: 270px;
+  display: inline-block; float: left;
+  border-top: 5px solid #FFFFFF; border-left: 5px solid #FFFFFF; border-bottom: 5px solid #373737; border-right: 5px solid #373737; border-radius: 25px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+/* RECIPE NAME */
+.crafting-block .crafting-name {
+  margin: 0px; padding: 0px 0px 15px 0px;
+  font-size: 15px; color: #646464;
+  font-weight: bold;
+}
+
+/* RECIPE GRID */
+
+.crafting-block .crafting-grid {
+  margin: 0px; padding: 0px; width:325px; height:195px;
+  display: inline-block; float: left;
+}
+
+
+/* RECIPE COLUMNS */
+
+.crafting-block .crafting-grid .crafting-column-0 {
+  margin: 0px; padding: 0px; width:195px; height:195px;
+  display: inline-block; float: left;
+}
+
+.crafting-block .crafting-grid .crafting-column-1 {
+  margin: 0px; padding: 0px; width:65px; height:195px;
+  display: inline-block; float: left;
+}
+
+.crafting-block .crafting-grid .crafting-column-2 {
+  margin: 0px; padding: 0px; width:65px; height:195px;
+  display: inline-block; float: left;
+}
+
+
+/* RECIPE ROWS */
+
+[class="crafting-block"] [class="crafting-grid"] [class="crafting-column-0"] [class*="crafting-row-"] {
+  margin: 0px; padding: 0px; width:195px; height:65px;
+  display: inline-block; float: left;
+}
+
+[class="crafting-block"] [class="crafting-grid"] [class="crafting-column-1"] [class*="crafting-row-"] {
+  margin: 0px; padding: 0px; width:65px; height:65px;
+  display: inline-block; float: left;
+}
+[class="crafting-block"] [class="crafting-grid"] [class="crafting-column-2"] [class*="crafting-row-"] {
+  margin: 0px; padding: 0px; width:65px; height:65px;
+  display: inline-block; float: left;
+}
+
+/* RECIPE SLOTS */
+
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] {
+  margin: 0px; padding: 0px; width:65px; height:65px;
+  display: inline-block; float: left;
+  background-size: 65px;
+}
+
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-image-"] {
+  background-image: url("https://i.imgur.com/pPzCuUM.png");
+}
+
+/* RECIPE GUI ITEMS */
+
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] [class*="crafting-item-"] {
+  background-size: 65px; margin: 0px; padding: 0px; width:65px; height:65px; display: inline-block; float: left;
+}  
+
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] [class="crafting-item-image-craftingarrow"] {
+  background-image: url("https://i.imgur.com/jiKUpmj.png");
+}
+
+/* RECIPE ITEMS */
+  /* CRAFTING TABLE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-craftingtable {
+  background-image: url("https://i.imgur.com/XM5x3Gh.png");
+}
+  /* AUTO CRAFTING MACHINE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-autocraftingmachine {
+  background-image: url("https://i.imgur.com/x4KZl5g.png");
+}
+
+  /* MACHINE  BLOCK*/
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-machineblock {
+  background-image: url("https://i.imgur.com/XO51T9U.png");
+}
+
+  /* DISPENSER */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-dispenser {
+  background-image: url("https://i.imgur.com/ExGCyZ2.png");
+}
+
+

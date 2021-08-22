@@ -1,0 +1,95 @@
+/* Responsive Design */
+
+[class*="col-"] {
+  float: left;
+  width: 100%;
+}
+
+.menu {
+  margin: 20px 0px 5px 0px;
+  padding: 0px;
+  display:inline-block; 
+  float:left;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/* Site Properties */
+
+/* Article Style */
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Button Style */
+
+div.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  max-width:100%;
+  height: auto;
+  color: #CCB77A;
+  background-color: #9A5235;
+  border: 0px solid white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+div.button:hover {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
+  max-width:100%;
+  height: auto;
+  color: #9A5235;
+  background-color: #D3BF89;
+  border: 0px solid white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.buttonlink:link, .buttonlink:link div, .buttonlink:link div p, .buttonlink:visited, .buttonlink:visited div, .buttonlink:visited div p {
+  text-decoration: none;   
+}
+
+.buttonlink:hover, .buttonlink:hover div, .buttonlink:hover div p, .buttonlink:active, .buttonlink:active div, .buttonlink:active div p {
+  text-decoration: none;   
+}
+
+div.button p {
+  margin: 0px;
+  padding: 0px;
+}

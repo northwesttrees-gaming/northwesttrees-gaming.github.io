@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../../../favicon.png"/>
+<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../css/styles.css">
+<link rel="stylesheet" href="crafting-recipes.css">
+</head>
+<body id="top" class="background">
+
+<div class="header">
+  <h1>NWT GAMING: GITHUB</h1>
+  <h2>NWTG AUTOMATION WIKI: AUTO CRAFTING MACHINE</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </li>
+    </ul>
+</div>
+
+<div class="row article">
+  <div class="col-3 col-s-3 menu">
+    <div>
+      <a href="wiki.html">Back</a>
+    </div>
+  </div>
+
+  <div class="col-6 col-s-9 article-bg artical-body">
+    <img src="https://i.imgur.com/M5X5iI7.png" style="width:100%; height:auto;">
+    
+    <h3>SECTIONS</h3>
+    <ul>
+      <li style="text-align:left; font-size:20px;"><a href="#overview">Overview</a></li>
+      <li style="text-align:left; font-size:20px;"><a href="#crafting-recipes">Crafting Recipes</a></li>
+      <li style="text-align:left; font-size:20px;"><a href="#functions">Functions</a></li>
+      <li style="text-align:left; font-size:20px;"><a href="#devices">Devices</a></li>
+      <li style="text-align:left; font-size:20px;"><a href="#auto-crafting-recipes">Auto Crafting Recipes</a></li>
+    </ul>
+      
+    
+    <h3 id="overview">Overview</h3>
+    <p>
+    The Auto Crafting Machine is used to craft things automatically. Not all items are currently supported for auto crafting, each update we release more recipes though.
+    </p>
+    
+    <h3 id="crafting-recipes">Crafting Recipes</h3>
+    <div style="display:block; float:left; width:100%;">
+      <h4 id="recipe-auto-crafting-machine">Auto Crafting Machine</h4>
+      <div class="crafting-block">
+        <p class="crafting-name">Crafting Table</p>
+	    <div class="crafting-grid">
+	      <div class="crafting-column-0">
+	        <div class="crafting-row-0">
+		      <div class="crafting-slot-image-0"><div class="crafting-item-empty"><div class="crafting-num-empty-0"></div></div></div>
+		      <div class="crafting-slot-image-1"><div class="crafting-item-image-dispenser tooltip"><span class="tooltiptext">Dispenser</span><div class="crafting-num-empty-1"></div></div></div>
+		      <div class="crafting-slot-image-2"><div class="crafting-item-empty"><div class="crafting-num-empty-2"></div></div></div>
+            </div>
+	        <div class="crafting-row-1">
+		      <div class="crafting-slot-image-3"><div class="crafting-item-empty"><div class="crafting-num-empty-0"></div></div></div>
+		      <div class="crafting-slot-image-4"><div class="crafting-item-image-machineblock tooltip"><span class="tooltiptext">Machine Block</span><div class="crafting-num-empty-1"></div></div></div>
+		      <div class="crafting-slot-image-5"><div class="crafting-item-empty"><div class="crafting-num-empty-2"></div></div></div>
+            </div>
+	        <div class="crafting-row-0">
+		      <div class="crafting-slot-image-6"><div class="crafting-item-empty"><div class="crafting-num-empty-0"></div></div></div>
+		      <div class="crafting-slot-image-7"><div class="crafting-item-image-craftingtable tooltip"><span class="tooltiptext">Crafting Table</span><div class="crafting-num-empty-1"></div></div></div>
+		      <div class="crafting-slot-image-8"><div class="crafting-item-empty"><div class="crafting-num-empty-2"></div></div></div>
+            </div>
+	      </div>
+          
+          <div class="crafting-column-1">
+	        <div class="crafting-row-0">
+		      <div class="crafting-slot-empty-0"><div class="crafting-item-empty"><div class="crafting-num-empty-0"></div></div></div>
+            </div>
+	        <div class="crafting-row-1">
+		      <div class="crafting-slot-empty-1"><div class="crafting-item-image-craftingarrow"><div class="crafting-num-empty-1"></div></div></div>
+            </div>
+	        <div class="crafting-row-2">
+		      <div class="crafting-slot-empty-2"><div class="crafting-item-empty"><div class="crafting-num-empty-2"></div></div></div>
+            </div>
+          </div>
+          
+	      <div class="crafting-column-2">
+	        <div class="crafting-row-0">
+		      <div class="crafting-slot-empty-0"><div class="crafting-item-empty"><div class="crafting-num-empty-0"></div></div></div>
+            </div>
+	        <div class="crafting-row-1">
+		      <div class="crafting-slot-image-1"><div class="crafting-item-image-autocraftingmachine tooltip"><span class="tooltiptext">Auto Crafting Machine</span><div class="crafting-num-empty-1"></div></div></div>
+            </div>
+	        <div class="crafting-row-2">
+		      <div class="crafting-slot-empty-2"><div class="crafting-item-empty"><div class="crafting-num-empty-2"></div></div></div>
+            </div>
+	      </div>
+	    </div>
+      </div>
+      </div>
+    
+    <h3 id="functions">Functions</h3>
+    <p>
+    The block needs two chests on the right and left of the block for the direction its facing. 
+    The chest on the right is used for output items that are not used in the recipe. 
+    The slot on the left is used for temerary storage and sorting. 
+    Crafted items can be pulled out of the blocks output slot using a Remote Item Teleporter block on the top of the block then linking it to another Remote Item Teleporter block.
+    </p>
+    <table class="table-border">
+      <tr>
+        <th>Side</th>
+        <th>Note</th>
+      </tr>
+      <tr>
+        <td>Front Side:</td>
+        <td>Can toggle the block on or off.</td>
+      </tr>
+      <tr>
+        <td>Back Side:</td>
+        <td>Can toggle the block on or off.</td>
+      </tr>
+      <tr>
+        <td>Left Side:</td>
+        <td>Items are sorted and added to the crafting grid.</td>
+      </tr>
+      <tr>
+        <td>Right Side:</td>
+        <td>Items not in the recipe will be added here.</td>
+      </tr>
+      <tr>
+        <td>Top Side:</td>
+        <td>A Remote Item Teleporter can pull output slot items from the crafting grid.</td>
+      </tr>
+      <tr>
+        <td>Bottom Side:</td>
+        <td>Unused</td>
+      </tr>
+    </table>
+
+    <h3 id="devices">Devices</h3>
+    <p>
+    Some devices can be linked to this block to add advanced functions to the block.
+    Padlocks can make the block protected blocking access form accessing the inventory for regular players.
+    Breaker blocks can block interaction with toggleing the block on or off.
+    Remote Item Teleporters can be added to the top of the block then linked to other Remote Item Teleporters to pull items from the output slot.
+    </p>
+    
+    <h3 id="auto-crafting-recipes">Auto Crafting Recipes</h3>
+    <p>
+    You can find a list of Auto Crafting Machine Recipes here on <a href="auto-crafting-machine-recipes.html">this page</a>.
+    </p>
+    <a class="buttonlink" href="#top"><div class="button"><p>TOP</p></div></a>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h3>SECTIONS</h3>
+      <ul>
+        <li style="text-align:left; font-size:20px;"><a href="#overview">Overview</a></li>
+        <li style="text-align:left; font-size:20px;"><a href="#crafting-recipes">Crafting Recipes</a></li>
+        <li style="text-align:left; font-size:20px;"><a href="#functions">Functions</a></li>
+        <li style="text-align:left; font-size:20px;"><a href="#devices">Devices</a></li>
+        <li style="text-align:left; font-size:20px;"><a href="#auto-crafting-recipes">Auto Crafting Recipes</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Check out our offcial website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
+</div>
+
+</body>
+</html>

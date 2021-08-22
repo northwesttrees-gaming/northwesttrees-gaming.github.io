@@ -1,0 +1,13 @@
+{
+  "homepage": "https://mcreator.net/modification/76920/nwtg-automation",
+  "1.16.5": {
+    "0.1.0": "Licensed under NWTG Public License 1.0\nAdded a creative tab for the mod\nAdded textures for the blocks\nAdded the Auto Machine Block, Farming Machine, Auto Crafting Machine, Auto Item Collector Machine, Remote Item Teleporter\nAdded the Machine Wrench item\nAdded support for Bread, Sugar, and Pumpkin Pie recipes to the Auto Crafting Machine\nAdded support for Eggs collecting to the Auto Item Collector Machine\nAdded a crafting recipe for the Machine Wrench, Auto Farming Machine, Auto Crafting Machine, Auto Item Colector Machine Remote Item Teleporter, and Machine Block\nAdded a tags for both items and blocks for the Auto Farming Machine, Auto Crafting Machine, Auto Item Collector Machine, Remote Item Teleporter, and Machine Block\nAdded a inventory for the Auto Farming Machine, Auto Crafting Machine, and Auto Item Collector Machine\nAdded model for the Remote Item Teleporter",
+    "0.1.1": "Fixed some issues with the remote item teleporter\nFixed some issues with the Auto Crafting Machine",
+    "0.2.0": "Added Breaker Panel, Auto Tree Farm Machine, Grass Slab blocks\nAdded a password screen\nAdded more Auto Crafting Machine recipes\nAdded crafting recipes for Auto Tree Farm Machine, Breaker Panel, and Grass Slabs\nAdded Breaker Panel Support for all machines\nAdded more tags for cross mod support\nAdded Owner tag to all machines\nBreaker Panels now use a ownership system\nCrafting Recipes now have cross mod support\nIts now possible to unlock recipes\nOwnership is given to the player who places the machines and devices\nChanges to the Remote Item Teleporter boundry box\nFixed some recipe rlated tag issues\nFixed type in tag name for lever",
+    "0.2.1": "Fixed Auto Farming Machine\nFixed a critcal issue from trying to link a breaker block to a remote item teleporter"
+  },
+  "promos": {
+    "1.16.5-latest": "0.2.1",
+    "1.16.5-recommended": "0.2.1"
+  }
+}

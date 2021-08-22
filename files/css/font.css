@@ -1,0 +1,39 @@
+/* For mobile phones: */
+  h1 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 24px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h2 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 22px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h3 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 20px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h4 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 18px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 16px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 14px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  .fs-important {color: #257C7C; font-weight: bold;}
+  .fs-warning {color: #CCB13D; font-weight: bold;}
+  .fs-error {color: #992D2D; font-weight: bold;}
+  
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  h1 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 26px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h2 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 24px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h3 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 22px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h4 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 20px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 18px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 16px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  h1 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 28px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h2 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 26px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h3 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 24px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h4 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 22px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 20px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 18px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
+  p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
+}

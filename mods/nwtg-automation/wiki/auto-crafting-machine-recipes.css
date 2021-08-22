@@ -1,0 +1,65 @@
+/* BODY PROPERTIES */
+.auto-crafting-machine { 
+  background-color: #454545;
+  margin: 0px; padding: 30px; width: 475px; height: 313px;
+  display: inline-block; float: left;
+  border-top: 5px solid #555555; border-left: 5px solid #555555; border-bottom: 5px solid #353535; border-right: 5px solid #353535; border-radius: 25px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+	
+/* GRID PROPERTIES */
+[class*="grid-"] { margin: 0px; padding: 0px; display: inline-block; float: left; }
+.grid-0 { width: 243px; height: 243px; }
+.grid-1, .grid-2 { width: 81px; height: 243px; }
+	
+/* GROUP PROPERTIES */
+[class*="grid-"] [class*="group-"] { margin: 0px; padding: 0px; display: inline-block; float: left; }
+.group-0 { width: 243px; height: 243px; }
+
+/* ROW PROPERTIES */
+[class*="grid-"] [class*="group-"] [class*="row-"] { margin: 0px; padding: 0px; display: inline-block; float: left; }
+.grid-0 .group-0 [class*="row-"] { width: 243px; height: 81px; }
+	
+/* SLOT PROPERTIES */
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] { background-image: url("https://i.imgur.com/T9WkgyP.png"); background-size: 81px; }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] { margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+[class*="grid-"] [class*="group-"] [class*="row-"] .empty-slot { margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+
+/* GLOBAL ITEM PROPERTIES */
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] [class*="item-"] { background-size: 81px; margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .empty-item { margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+	
+/* ITEM BACKGROUNDS */
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-oak-logs { background-image: url("https://i.imgur.com/Wl8rrtw.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-oak-planks { background-image: url("https://i.imgur.com/LPs5m4C.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-spruce-logs { background-image: url("https://i.imgur.com/kTFIdb5.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-spruce-planks { background-image: url("https://i.imgur.com/aOzfxy4.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-birch-logs { background-image: url("https://i.imgur.com/h1ImziY.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-birch-planks { background-image: url("https://i.imgur.com/MFGFBbp.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-jungle-logs { background-image: url("https://i.imgur.com/Khq5PAS.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-jungle-planks { background-image: url("https://i.imgur.com/xpfcSHB.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-acacia-logs { background-image: url("https://i.imgur.com/4aXuwhP.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-acacia-planks { background-image: url("https://i.imgur.com/tDh9xsB.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-dark-oak-logs { background-image: url("https://i.imgur.com/8xYCDhW.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-dark-oak-planks { background-image: url("https://i.imgur.com/ghd4bmI.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-crimson-stems { background-image: url("https://i.imgur.com/vCZR7wK.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-crimson-planks { background-image: url("https://i.imgur.com/KGS8f31.png"); }
+
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-warped-stems { background-image: url("https://i.imgur.com/D67enfb.png"); }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .item-warped-planks { background-image: url("https://i.imgur.com/vzo47uA.png"); }
+
+
+/* GLOBAL NUMBER PROPERTIES */
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] [class*="item-"] [class*="num-"] { background-size: 81px; margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] [class*="item-"] .empty-num { margin: 0px; padding: 0px; width: 81px; height: 81px; display: inline-block; float: left; }
+	
+/* NUMBER BACKGROUNDS */
+[class*="grid-"] [class*="group-"] [class*="row-"] [class*="slot-"] .num-4 { background-image: url("https://i.imgur.com/1jr0tq6.png"); }
+	
+#spoilerGroup { display: none; }

@@ -1,0 +1,127 @@
+/* For mobile phones: */
+  .aside-right {
+    display: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-left {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+    
+  }
+  .aside-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 14px 14px 14px 14px;
+    margin: 0px 0px 0px 0px; 
+  }
+  .aside-content {
+    background-color: #151515; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#151515, #353535);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .aside-right {
+    display: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-left {
+    display: inline-block;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+    
+  }
+  .aside-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 16px 16px 16px 16px;
+    margin: 0px 0px 0px 0px; 
+  }
+  .aside-content {
+    background-color: #151515; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#151515, #353535);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+  .aside-right {
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-left {
+    display: none;
+  }
+  .aside-box {
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-titlebar {
+    background-color: #C9AF7A;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .aside-titlebar h4 {
+    color: #151515;
+    display: inline-block;
+    padding: 18px 18px 18px 18px;
+    margin: 0px 0px 0px 0px; 
+  }
+  .aside-content {
+    background-color: #151515; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#151515, #353535);
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,200 @@
+/* For mobile phones: */
+
+  /* SITE RESET */
+  body { margin:0px; padding:0px; background-color: #562B1B;}
+
+  /* SITE PROPERTIES */
+  * { box-sizing: border-box; }
+  body, html { height: 100%; }
+
+  /* DEVIDER LINES */
+  .h-line {
+    width:100%;
+    border-bottom: 3px solid #CCB77A;
+    padding:15px 0px;
+    margin:0px;
+  }
+  .h-line-dash {
+    width:100%;
+    border-bottom: 3px dashed #8C7D62;
+    padding:15px 0px;
+    margin:0px;
+  }
+  .h-line-dot {
+    width:100%;
+    border-bottom: 3px dotted #665D4C;
+    padding:15px 0px;
+    margin:0px;
+  }
+
+  
+  /* BACKGROUND */
+  .background {
+    background-image: url("https://i.imgur.com/RUNLgH2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 66%;
+  }
+  
+  /* DEVICE DISPLAY CLASSES */
+  .display-mobile {
+    display:inline-block;
+  }
+  .display-desktop {
+    display:none;
+  }
+
+  /* BASIC TABLE STYLE */
+  .basic-table {
+    border: 2px solid #CCB77A;
+    border-collapse: collapse;
+    padding: 30px 0px;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .basic-table th, .basic-table td {
+    text-align: left;
+    margin: 0px;
+    padding: 15px;
+    border: 1px solid #CCB77A;
+  }
+
+  .basic-table tr:nth-child(even) { background: rgba(204, 183, 122, 0.3) }
+  .basic-table tr { background: rgba(204, 183, 122, 0.5) }
+
+  .basic-table th {
+    background-color: #CCB77A;
+    color: white;
+  }
+
+  .basic-table th, .basic-table td {
+    text-align: left;
+    margin: 0px;
+    padding: 15px;
+    border: 1px solid #CCB77A;
+  }
+  
+  /* GALLERY TABLE */
+  .gallery-row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .gallery-column {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+  }
+
+  .gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* MOD PAGE ITEM BOX */
+  [class="mod-item-box"] {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  body { margin:0px; padding:0px; }
+  
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 80%;
+  }
+  
+  /* DEVICE DISPLAY CLASSES */
+  .display-mobile {
+    display:inline-block;
+  }
+  .display-desktop {
+    display:none;
+  }
+  
+  /* GALLERY */
+  .gallery-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+/* Landscape tablets: */
+  
+  /* SITE RESET */
+  body { margin:0px; padding:0px; }
+  
+  /* DESKTOP COLUMN DISPLAY */
+  .right-column {
+    display: inline-block;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 15px;
+  }
+  .left-column {
+    display: inline-block;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 15px 0px 0px;
+  }
+  
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 90%;
+  }
+  
+  /* DEVICE DISPLAY CLASSES */
+  .display-mobile {
+    display:none;
+  }
+  .display-desktop {
+    display:inline-block;
+  }
+  
+  /* GALLERY */
+  .gallery-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+/* For laptops/desktops: */
+
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+/* For large laptops and desktops: */
+
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+/* For 4K Screens: */
+
+  /* DOWNLOAD IMAGE */
+  .download-image {
+    display: block; margin-left: auto; margin-right: auto; width: 33%;
+  }
+}
