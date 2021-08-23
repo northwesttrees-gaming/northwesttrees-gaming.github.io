@@ -28,6 +28,7 @@
   }
 
   
+
   /* BACKGROUND */
   .background {
     background-image: url("https://i.imgur.com/RUNLgH2.jpg");
@@ -39,6 +40,14 @@
   /* DOWNLOAD IMAGE */
   .download-image {
     display: block; margin-left: auto; margin-right: auto; width: 66%;
+  }
+  
+  /* NEW DISPLAY OPTIONS */
+  .show-on-mobile {
+    display:inline-block;
+  }
+  .hide-on-mobile {
+    display:none;
   }
   
   /* DEVICE DISPLAY CLASSES */
@@ -118,10 +127,10 @@
   }
   
   /* DEVICE DISPLAY CLASSES */
-  .display-mobile {
+  .show-on-tablet {
     display:inline-block;
   }
-  .display-desktop {
+  .hide-on-tablet {
     display:none;
   }
   
@@ -157,11 +166,11 @@
   }
   
   /* DEVICE DISPLAY CLASSES */
-  .display-mobile {
-    display:none;
-  }
-  .display-desktop {
+  .show-on-desktop {
     display:inline-block;
+  }
+  .hide-on-desktop {
+    display:none;
   }
   
   /* GALLERY */

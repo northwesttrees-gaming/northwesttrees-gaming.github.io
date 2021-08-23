@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="files/css/header.css">
 <link rel="stylesheet" href="files/css/article.css">
 <link rel="stylesheet" href="files/css/footer.css">
+<script src="files/js/menu.js"></script>
 </head>
 <body class="background">
 
@@ -32,11 +33,9 @@
 
   <!-- MENU -->
   <div class="menu">
-    <div class="menu-box">
-      <div class="menu-titlebar">
-        <h4>PAGES</h4>
-      </div>
-      <div class="menu-content">
+    <div class="menu-box" onclick="mainMenuButton()">
+      <div class="menu-titlebar"><h4>Site Menu</h4></div>
+      <div id="main-menu-button" class="menu-content" style="display:none;">
         <ul>
           <li><a class="active" href="index.html">Home</a></li>
           <li><a class="inactive" href="minecraft-mods.html">Minecraft Mods</a></li>
@@ -46,9 +45,9 @@
   </div>
 
   <!-- LEFT ASIDE -->
-  <div class="aside-left">
+  <div class="aside-left hide-on-mobile hide-on-desktop show-on-tablet">
     <div class="aside-box">
-      <div class="aside-titlebar"><h4>OFFICIAL NWTG SITES</h4></div>
+      <div class="aside-titlebar"><h4>Official Sites</h4></div>
       <div class="aside-content">
         <ul>
           <li style="text-align:left;"><a href="https://www.northwesttreesgaming.com">NorthWestTrees Gaming Website</a></li>
@@ -68,7 +67,7 @@
   <div class="article-box">  
     <!-- ARTICLE TITLEBAR -->
     <div class="article-titlebar">
-      <h2>HOME</h2>
+      <h2>Home</h2>
     </div>
     
     <!-- ARTICLE CONTENT -->    
@@ -96,9 +95,9 @@
 <div class="col-3 col-s-4 right-column">
 
   <!-- RIGHT ASIDE -->
-  <div class="aside-right">
+  <div class="aside-right show-on-mobile show-on-desktop hide-on-tablet">
     <div class="aside-box">
-      <div class="aside-titlebar"><h4>OFFICIAL NWTG SITES</h4></div>
+      <div class="aside-titlebar"><h4>Official Sites</h4></div>
       <div class="aside-content">
         <ul>
           <li style="text-align:left;"><a href="https://www.northwesttreesgaming.com">NorthWestTrees Gaming Website</a></li>
