@@ -33,18 +33,30 @@
 
   <!-- MENU -->
   <div class="menu">
-    <div class="menu-box" onclick="mainMenuButton()">
-      <div class="menu-titlebar"><h4>Site Menu</h4></div>
-      <div id="main-menu-button" class="menu-content" style="display:none;">
+    
+    <!-- SITE MENU -->
+    <div class="menu-box">
+      <div class="menu-titlebar" onclick="mainMenuButton()">
+        <h4 style="display:inline-block;">Site Menu</h4>
+        <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+        <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+      </div>
+      <div id="main-menu-button-0" class="menu-content" style="display:none;">
         <ul>
           <li><a class="inactive" href="../index.html">Home</a></li>
           <li><a class="inactive" href="../minecraft-mods.html">Minecraft Mods</a></li>
         </ul>
       </div>
     </div>
-    <div class="menu-box" onclick="modMenuButton()">
-      <div class="menu-titlebar"><h4>Mod Menu</h4></div>
-      <div id="mod-menu-button" class="menu-content" style="display:none;">
+    
+    <!-- MOD MENU -->
+    <div class="menu-box">
+      <div class="menu-titlebar" onclick="modMenuButton()">
+        <h4 style="display:inline-block;">Mod Menu</h4>
+        <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+        <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
+      </div>
+      <div id="mod-menu-button-0" class="menu-content" style="display:none;">
         <ul>
           <li><a class="active" href="">Mod Home</a></li>
           <li><a class="inactive" href="nwtg-automation/downloads.html">Downloads</a></li>
@@ -110,7 +122,7 @@
   <div class="article-box">  
     <!-- ARTICLE TITLEBAR -->
     <div class="article-titlebar">
-      <h2>NWTG AUTOMATION</h2>
+      <h2>NWTG Automation</h2>
     </div>
     
     <!-- ARTICLE CONTENT -->    

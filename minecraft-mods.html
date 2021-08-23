@@ -33,9 +33,15 @@
 
   <!-- MENU -->
   <div class="menu">
-    <div class="menu-box" onclick="mainMenuButton()">
-      <div class="menu-titlebar"><h4>Site Menu</h4></div>
-      <div id="main-menu-button" class="menu-content" style="display:none;">
+    
+    <!-- SITE MENU -->
+    <div class="menu-box">
+      <div class="menu-titlebar" onclick="mainMenuButton()">
+        <h4 style="display:inline-block;">Site Menu</h4>
+        <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+        <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+      </div>
+      <div id="main-menu-button-0" class="menu-content" style="display:none;">
         <ul>
           <li><a class="inactive" href="index.html">Home</a></li>
           <li><a class="active" href="minecraft-mods.html">Minecraft Mods</a></li>
@@ -67,7 +73,7 @@
   <div class="article-box">  
     <!-- ARTICLE TITLEBAR -->
     <div class="article-titlebar">
-      <h2>MINECRAFT MODS</h2>
+      <h2>Minecraft Mods</h2>
     </div>
     
     <!-- ARTICLE CONTENT -->    

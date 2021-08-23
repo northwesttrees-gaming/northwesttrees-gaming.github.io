@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="../../files/css/header.css">
 <link rel="stylesheet" href="../../files/css/article.css">
 <link rel="stylesheet" href="../../files/css/footer.css">
+<script src="../../files/js/menu.js"></script>  
 </head>
 <body class="background">
 
@@ -32,18 +33,30 @@
 
   <!-- MENU -->
   <div class="menu">
+
+    <!-- SITE MENU -->
     <div class="menu-box">
-      <div class="menu-titlebar"><h4>PAGES</h4></div>
-      <div class="menu-content">
+      <div class="menu-titlebar" onclick="mainMenuButton()">
+        <h4 style="display:inline-block;">Site Menu</h4>
+        <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+        <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+      </div>
+      <div id="main-menu-button-0" class="menu-content" style="display:none;">
         <ul>
           <li><a class="inactive" href="../../index.html">Home</a></li>
           <li><a class="inactive" href="../../minecraft-mods.html">Minecraft Mods</a></li>
         </ul>
       </div>
     </div>
+    
+    <!-- MOD MENU -->
     <div class="menu-box">
-      <div class="menu-titlebar"><h4>MOD PAGES</h4></div>
-      <div class="menu-content">
+      <div class="menu-titlebar" onclick="modMenuButton()">
+        <h4 style="display:inline-block;">Mod Menu</h4>
+        <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+        <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
+      </div>
+      <div id="mod-menu-button-0" class="menu-content" style="display:none;">
         <ul>
           <li><a class="inactive" href="../nwtg-automation.html">Mod Home</a></li>
           <li><a class="inactive" href="downloads.html">Downloads</a></li>
@@ -57,9 +70,9 @@
   </div>
 
   <!-- LEFT ASIDE -->
-  <div class="aside-left">
+  <div class="aside-left show-on-mobile hide-on-desktop show-on-tablet">
     <div class="aside-box">
-      <div id="top-m" class="aside-titlebar"><h4>PAGE INDEX</h4></div>
+      <div id="top-m" class="aside-titlebar"><h4>Page Index</h4></div>
       <div class="aside-content">
         <ul>
           <li style="text-align:left;"><a href="#v0.3.0">Release: v0.3.0</a></li>
@@ -81,12 +94,12 @@
   <div class="article-box">  
     <!-- ARTICLE TITLEBAR -->
     <div class="article-titlebar">
-      <h2>CHANGELOGS</h2>
+      <h2>Changelogs</h2>
     </div>
     
     <!-- ARTICLE CONTENT -->    
     <div class="article-content">
-      <h3 id="v0.3.0">THE TACKLE UPDATE - 0.3.0</h3>
+      <h3 id="v0.3.0">The Tackle Update - 0.3.0</h3>
       <a class="display-mobile" href="#top-m">TOP</a>
       <a class="display-desktop" href="#top-d">TOP</a>
       <ul>
@@ -111,7 +124,7 @@
         <li>Technology Scroll now give information about the block face when right-clicked on the machine or device.</li>
       </ul>
       
-      <h3 id="v0.2.1">THE WOODLAND UPDATE PATCH - 0.2.1</h3>
+      <h3 id="v0.2.1">The Woodland Update Patch - 0.2.1</h3>
       <a class="display-mobile" href="#top-m">TOP</a>
       <a class="display-desktop" href="#top-d">TOP</a>
       <ul>
@@ -119,7 +132,7 @@
         <li>Fixed critical crash from trying to link a breaker block to a Remote Item Teleporter.</li>
       </ul>
     
-      <h3 id="v0.2.0">THE WOODLAND UPDATE - 0.2.0</h3>
+      <h3 id="v0.2.0">The Woodland Update - 0.2.0</h3>
       <a class="display-mobile" href="#top-m">TOP</a>
       <a class="display-desktop" href="#top-d">TOP</a>
       <ul>
@@ -139,7 +152,7 @@
         <li>Fixed type in tag name for lever</li>
       </ul>
     
-      <h3 id="v0.1.1">THE FARMING UPDATE PATCH - 0.1.1</h3>
+      <h3 id="v0.1.1">The Farming Update Patch - 0.1.1</h3>
       <a class="display-mobile" href="#top-m">TOP</a>
       <a class="display-desktop" href="#top-d">TOP</a>
       <ul>
@@ -147,7 +160,7 @@
         <li>Fixed issue with "Auto Crafting Tables" not working properly.</li>
       </ul>
     
-      <h3 id="v0.1.0">THE FARMING UPDATE - 0.1.0</h3>
+      <h3 id="v0.1.0">The Farming Update - 0.1.0</h3>
       <a class="display-mobile" href="#top-m">TOP</a>
       <a class="display-desktop" href="#top-d">TOP</a>
       <ul>
@@ -173,9 +186,9 @@
 <div class="col-3 col-s-4 right-column">
 
   <!-- RIGHT ASIDE -->
-  <div class="aside-right">
+  <div class="aside-right hide-on-mobile show-on-desktop hide-on-tablet">
     <div class="aside-box">
-      <div id="top-d" class="aside-titlebar"><h4>PAGE INDEX</h4></div>
+      <div id="top-d" class="aside-titlebar"><h4>Page Index</h4></div>
       <div class="aside-content">
         <ul>
           <li style="text-align:left;"><a href="#v0.3.0">Release: v0.3.0</a></li>
