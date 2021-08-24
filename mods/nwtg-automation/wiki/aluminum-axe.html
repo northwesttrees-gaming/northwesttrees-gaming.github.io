@@ -1,179 +1,163 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="../../../files/img/favicon.png"/>
-<link rel="stylesheet" href="../../../files/css/defualt.css">
-<link rel="stylesheet" href="../../../files/css/styles.css">
-<link rel="stylesheet" href="../../../files/css/font.css">
-<link rel="stylesheet" href="../../../files/css/menu.css">
-<link rel="stylesheet" href="../../../files/css/aside.css">
-<link rel="stylesheet" href="../../../files/css/header.css">
-<link rel="stylesheet" href="../../../files/css/article.css">
-<link rel="stylesheet" href="../../../files/css/footer.css">
-</head>
-<body class="background">
+  <head>
+    <title>NWTG Automation Wiki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Minecraft,Mods,Wiki,NWTG Automation,Aluminum Axe,Axe,Aluminum">
+    <meta name="description" content="Learn about the Aluminum Axe in the minecraft mod NWTG Automation.">
+    <meta name="author" content="NorthWestTrees Gaming">
+    <link rel="icon" type="image/png" href="../../../files/img/favicon.png"/>
+    <link rel="stylesheet" href="../../../files/css/defualt.css">
+    <link rel="stylesheet" href="../../../files/css/styles.css">
+    <link rel="stylesheet" href="../../../files/css/font.css">
+    <link rel="stylesheet" href="../../../files/css/menu.css">
+    <link rel="stylesheet" href="../../../files/css/aside.css">
+    <link rel="stylesheet" href="../../../files/css/header.css">
+    <link rel="stylesheet" href="../../../files/css/article.css">
+    <link rel="stylesheet" href="../../../files/css/footer.css">
+    <script src="../../../files/js/menu.js"></script> 
+  </head>
+  <body class="background">
 
-
-<!-- HEADER SECTION -->
-<div class="col-12 col-s-12 header">
-
-  <div class="header-box">
-    <div class="header-content">
-      <h1>NWTG HUB</h1>
-    </div>
-  </div>
-
-</div>
-
-
-<!-- LEFT BAR SECTION -->
-<div class="col-3 col-s-4 left-column">
-
-  <!-- MENU -->
-  <div class="menu">
-    <div class="menu-box">
-      <div class="menu-titlebar"><h4>PAGES</h4></div>
-      <div class="menu-content">
-        <ul>
-          <li><a class="inactive" href="../../../index.html">Home</a></li>
-          <li><a class="inactive" href="../../../minecraft-mods.html">Minecraft Mods</a></li>
-        </ul>
+    <!-- HEADER SECTION -->
+    <div class="col-12 col-s-12 header">
+      <div class="header-box">
+        <div class="header-content">
+          <h1>NWTG HUB</h1>
+        </div>
       </div>
     </div>
-    <div class="menu-box">
-      <div class="menu-titlebar"><h4>MOD PAGES</h4></div>
-      <div class="menu-content">
-        <ul>
-          <li><a class="inactive" href="../../nwtg-automation.html">Mod Home</a></li>
-          <li><a class="inactive" href="../downloads.html">Downloads</a></li>
-          <li><a class="inactive" href="../changelogs.html">Changelogs</a></li>
-          <li><a class="inactive" href="../gallery.html">Gallery</a></li>
-          <li><a class="inactive" href="../upcoming.html">Upcoming</a></li>
-          <li><a class="active" href="../wiki.html">Wiki</a></li>
-        </ul>
+
+    <!-- LEFT BAR SECTION -->
+    <div class="col-3 col-s-4 left-column">
+
+      <!-- MENU -->
+      <div class="menu">
+
+        <!-- SITE MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="mainMenuButton()">
+            <h4 style="display:inline-block;">Site Menu</h4>
+            <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="main-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../../../index.html">Home</a></li>
+              <li><a class="inactive" href="../../../minecraft-mods.html">Minecraft Mods</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MOD MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="modMenuButton()">
+            <h4 style="display:inline-block;">Mod Menu</h4>
+            <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="mod-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../../nwtg-automation.html">Mod Home</a></li>
+              <li><a class="inactive" href="../downloads.html">Downloads</a></li>
+              <li><a class="inactive" href="../changelogs.html">Changelogs</a></li>
+              <li><a class="inactive" href="../gallery.html">Gallery</a></li>
+              <li><a class="inactive" href="../upcoming.html">Upcoming</a></li>
+              <li><a class="active" href="../wiki.html">Wiki</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <!-- LEFT ASIDE -->
+      <div class="aside-left show-on-mobile hide-on-desktop show-on-tablet">
+        <div class="aside-box">
+        <div class="aside-titlebar"><h4>Page Index</h4></div>
+          <div class="aside-content">
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#recipes">Recipes</a></li>
+              <li><a href="#tags">Tags</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- LEFT ASIDE -->
-  <div class="aside-left">
-    <div class="aside-box">
-      <div class="aside-titlebar"><h4>MOD SITES</h4></div>
-      <div class="aside-content">
-        <ul>
-          <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
-          <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
-          <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
-<!-- ARTICLE SECTION -->
-<div class="col-6 col-s-8 article">
-
-  <div class="article-box">  
-    <!-- ARTICLE TITLEBAR -->
-    <div class="article-titlebar">
-      <h2>WIKI</h2>
-    </div>
+    <!-- ARTICLE SECTION -->
+    <div class="col-6 col-s-8 article">
     
-    <!-- ARTICLE CONTENT -->    
-    <div class="article-content">
-      <h3>Blocks<h3>
-      <p>All kinds of new building materials.</p>
-      <ul>
-        <li><a href="wiki/aluminum-bars.html">Aluminum Bars</a></li>
-        <li><a href="wiki/aluminum-door.html">Aluminum Door</a></li>
-        <li><a href="wiki/aluminum-trapdoor.html">Aluminum Trapdoor</a></li>
-        <li><a href="wiki/block-of-aluminum.html">Block of Aluminum</a></li>
-        <li><a href="wiki/chiseled-aluminum.html">Chiseled Aluminum</a></li>
-        <li><a href="wiki/grass-slab.html">Grass Slabs</a></li>
-        <li><a href="wiki/industrial-aluminum.html">Industrial Aluminum</a></li>
-        <li><a href="wiki/polished-aluminum.html">Polished Aluminum</a></li>
-      </ul>
-      <div class="h-line-dash"></div>
-      <h3>Devices<h3>
-      <p>Devices give machines more advanced features.</p>
-      <ul>
-        <li><a href="wiki/auto-farming-machine.html">Breaker Panel</a></li>
-        <li><a href="wiki/auto-crafting-machine.html">Padlock</a></li>
-        <li><a href="wiki/remote-item-teleporter.html">Remote Item Teleporter</a></li>
-      </ul>
-      <div class="h-line-dash"></div>
-      <h3>Items<h3>
-      <p>Items that can be use for things.</p>
-      <ul>
-        <li><a href="wiki/aluminum-ingot.html">Aluminum Ingot</a></li>
-       <li><a href="wiki/aluminum-nugget.html">Aluminum Nugget</a></li>
-        <li><a href="wiki/raw-aluminum.html">Raw Aluminum</a></li>
-      </ul>
-      <div class="h-line-dash"></div>
-      <h3>Machines<h3>
-      <p>Machines are advanced blocks with many unique ueses.</p>
-      <ul>
-        <li><a href="wiki/auto-collecting-machine.html">Auto Collecting Machine</a></li>
-        <li><a href="wiki/auto-crafting-machine.html">Auto Crafting Machine</a></li>
-        <li><a href="wiki/auto-farming-machine.html">Auto Farming Machine</a></li>
-        <li><a href="wiki/auto-fishing-machine.html">Auto Fishing Machine</a></li>
-        <li><a href="wiki/auto-tree-farm-machine.html">Auto Tree Farm Machine</a></li>
-      </ul>
-      <div class="h-line-dash"></div>
-      <h3>Ores<h3>
-      <p>Ores give way for new materials.</p>
-      <ul>
-        <li><a href="wiki/aluminum-ore.html">Aluminum Ore</a></li>
-      </ul>
-      <div class="h-line-dash"></div>
-      <h3>Tools<h3>
-      <p>Items that can be use for things.</p>
-      <ul>
-        <li><a href="wiki/aluminum-axe.html">Aluminum Axe</a></li>
-        <li><a href="wiki/aluminum-hoe.html">Aluminum Hoe</a></li>
-        <li><a href="wiki/aluminum-pickaxe.html">Aluminum Pickaxe</a></li>
-        <li><a href="wiki/aluminum-shovel.html">Aluminum Shovel</a></li>
-        <li><a href="wiki/aluminum-sword.html">Aluminum Sword</a></li>
-        <li><a href="wiki/machine-wrench.html">Machine Wrench</a></li>
-        <li><a href="wiki/technology-scroll.html">Technology Scroll</a></li>
-      </ul>
-    </div>
-  </div>
+      <div class="article-box">
 
-</div>
+        <!-- ARTICLE TITLEBAR -->
+        <div class="article-titlebar">
+          <h2>Wiki - Aluminum Axe</h2>
+        </div>
 
+        <!-- ARTICLE CONTENT -->
+        <div class="article-content">
+          <h3 id="overview">Overview</h3>
+          <p>
+          The Aluminum Axe is a tool that can be used to break most wood blocks.
+          The axe has the similar properties as an Iron Axe.
+          The axe can also be used to craft 
+          <a href="auto-tree-farm-machine.html">Auto Tree Farm Machines</a> 
+          as an alternitive crafting resource.
+          </p>
 
-<!-- RIGHT BAR SECTION -->
-<div class="col-3 col-s-4 right-column">
+          <div class="h-line-dash"></div>
 
-  <!-- RIGHT ASIDE -->
-  <div class="aside-right">
-    <div class="aside-box">
-      <div class="aside-titlebar"><h4>MOD SITES</h4></div>
-      <div class="aside-content">
-        <ul>
-          <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
-          <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
-          <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
-        </ul>
+          <h3 id="recipes">Recipes</h3>
+          <p>
+          The axe can be crafted at a 
+          <a href="https://minecraft.fandom.com/wiki/Crafting_Table" target="_blank">Crafting Table<a> 
+          with a similar shape as axe recipes in vanilla.
+          </p>
+
+          <div class="h-line-dash"></div>
+
+          <h3 id="tags">Tags</h3>
+          <p>The item has some tags to allow for cross mod support.</p>
+          <h5>Item Tags:</h5>
+          <ul>
+            <li>forge:nwtg_automation/<br>items/aluminum_axe</li>
+          </ul>
+          <h5>Used in Tags:</h5>
+          <ul>
+            <li>forge:nwtg_automation/<br>items/axes</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-</div>
-
-
-<!-- FOOTER SECTION -->
-<div class="col-12 col-s-12 footer">
-  <div class="footer-box">
-    <div class="footer-content">
-      <p>Check out our other website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
+    <!-- RIGHT BAR SECTION -->
+    <div class="col-3 col-s-4 right-column">
+      <!-- RIGHT ASIDE -->
+      <div class="aside-right hide-on-mobile show-on-desktop hide-on-tablet">
+        <div class="aside-box">
+          <div class="aside-titlebar">
+            <h4>Page Index</h4>
+          </div>
+          <div class="aside-content">
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#recipes">Recipes</a></li>
+              <li><a href="#tags">Tags</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-</body>
+    <!-- FOOTER SECTION -->
+    <div class="col-12 col-s-12 footer">
+      <div class="footer-box">
+        <div class="footer-content">
+          <p>Check out our other website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
+        </div>
+      </div>
+    </div>
+
+  </body>
 </html>
