@@ -12,23 +12,52 @@
     width:100%;
     border-bottom: 3px solid #CCB77A;
     padding:15px 0px;
+    display:inline-block;
     margin:0px;
   }
   .h-line-dash {
     width:100%;
     border-bottom: 3px dashed #8C7D62;
     padding:15px 0px;
+    display:inline-block;
     margin:0px;
   }
   .h-line-dot {
     width:100%;
     border-bottom: 3px dotted #665D4C;
     padding:15px 0px;
+    display:inline-block;
     margin:0px;
   }
 
+  /* NOTE BLOCKS */
+  .important-note-block {
+    display:inline-block;
+    border-left: 10px solid #257C7C;
+    padding:15px 30px;
+    background-color:#2D2D2D;
+    margin:0px;
+    width:100%;
+  }
   
-
+  .warning-note-block {
+    display:inline-block;
+    border-left: 10px solid #CCB13D;
+    padding:15px 30px;
+    background-color:#2D2D2D;
+    margin:0px;
+    width:100%;
+  }
+  
+  .error-note-block {
+    display:inline-block;
+    border-left: 10px solid #992D2D;
+    padding:15px 30px;
+    background-color:#2D2D2D;
+    margin:0px;
+    width:100%;
+  }
+    
   /* BACKGROUND */
   .background {
     background-image: url("https://i.imgur.com/RUNLgH2.jpg");

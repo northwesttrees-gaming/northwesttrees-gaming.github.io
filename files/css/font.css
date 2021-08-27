@@ -6,6 +6,7 @@
   h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 16px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 14px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  span {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 10px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
   .fs-important {color: #257C7C; font-weight: bold;}
@@ -21,6 +22,7 @@
   h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 18px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 16px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  span {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 12px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 16px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
 
@@ -34,6 +36,7 @@
   h5 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 20px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   h6 {font-family: "Lucida Handwriting", "Brush Script MT", cursive; font-size: 18px; color:#D8C382; text-shadow: 2px 2px 4px #000000;}
   p, li, td, th {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
+  span {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 14px; color:#FFFFFF; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:link, a:visited {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#BF9C69; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
   a:hover, a:active {font-family: "Verdana", "Helvetica", "	Arial", sans-serif; font-size: 18px; color:#A37749; text-decoration: none; text-shadow: 1.5px 1.5px 2.5px #000000;}
 }
