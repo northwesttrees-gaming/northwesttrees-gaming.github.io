@@ -1,146 +1,157 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="../../files/img/favicon.png"/>
-<link rel="stylesheet" href="../../files/css/defualt.css">
-<link rel="stylesheet" href="../../files/css/styles.css">
-<link rel="stylesheet" href="../../files/css/font.css">
-<link rel="stylesheet" href="../../files/css/menu.css">
-<link rel="stylesheet" href="../../files/css/aside.css">
-<link rel="stylesheet" href="../../files/css/header.css">
-<link rel="stylesheet" href="../../files/css/article.css">
-<link rel="stylesheet" href="../../files/css/footer.css">
-<script src="../../files/js/menu.js"></script> 
-</head>
-<body class="background">
-
-
-<!-- HEADER SECTION -->
-<div class="col-12 col-s-12 header">
-
-  <div class="header-box">
-    <div class="header-content">
-      <h1>NWTG HUB</h1>
-    </div>
-  </div>
-
-</div>
-
-
-<!-- LEFT BAR SECTION -->
-<div class="col-3 col-s-4 left-column">
-
-  <!-- MENU -->
-  <div class="menu">
-
-    <!-- SITE MENU -->
-    <div class="menu-box">
-      <div class="menu-titlebar" onclick="mainMenuButton()">
-        <h4 style="display:inline-block;">Site Menu</h4>
-        <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
-        <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
-      </div>
-      <div id="main-menu-button-0" class="menu-content" style="display:none;">
-        <ul>
-          <li><a class="inactive" href="../../index.html">Home</a></li>
-          <li><a class="inactive" href="../../minecraft-mods.html">Minecraft Mods</a></li>
-        </ul>
-      </div>
-    </div>
-    
-    <!-- MOD MENU -->
-    <div class="menu-box">
-      <div class="menu-titlebar" onclick="modMenuButton()">
-        <h4 style="display:inline-block;">Mod Menu</h4>
-        <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
-        <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
-      </div>
-      <div id="mod-menu-button-0" class="menu-content" style="display:none;">
-        <ul>
-          <li><a class="inactive" href="../nwtg-automation.html">Mod Home</a></li>
-          <li><a class="inactive" href="downloads.html">Downloads</a></li>
-          <li><a class="inactive" href="changelogs.html">Changelogs</a></li>
-          <li><a class="active" href="">Gallery</a></li>
-          <li><a class="inactive" href="upcoming.html">Upcoming</a></li>
-          <li><a class="inactive" href="wiki.html">Wiki</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- LEFT ASIDE -->
-  <div class="aside-left hide-on-mobile hide-on-desktop show-on-tablet">
-    <div class="aside-box">
-      <div class="aside-titlebar"><h4>Mod Sites</h4></div>
-      <div class="aside-content">
-        <ul>
-          <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
-          <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
-          <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-
-<!-- ARTICLE SECTION -->
-<div class="col-6 col-s-8 article">
-
-  <div class="article-box">  
-    <!-- ARTICLE TITLEBAR -->
-    <div class="article-titlebar">
-      <h2>Gallery</h2>
-    </div>
-    
-    <!-- ARTICLE CONTENT -->    
-    <div class="article-content">
-      <div class="gallery-row">
-        <div class="gallery-column">
-          <img class="gallery" src="https://i.imgur.com/M5X5iI7.png" alt="Auto Crafting Machines" style="width:100%">
-          <img class="gallery" src="https://i.imgur.com/06lsIGT.png" alt="Auto Item Collector Machines" style="width:100%">
-        </div>
-        <div class="gallery-column">
-          <img class="gallery" src="https://i.imgur.com/5SG1J6x.png" alt="Auto Tree Farm Machines" style="width:100%">
-          <img class="gallery" src="https://i.imgur.com/UxESUZA.png" alt="Auto Farming Machines" style="width:100%">
+  <head>
+    <title>NWTG Automation | Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Minecraft,Mods,NWTG Automation,Gallery">
+    <meta name="description" content="Check out our official minecraft modification gallery!">
+    <meta name="author" content="NorthWestTrees Gaming">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NWTG Automation | Gallery">
+    <meta property="og:description" content="Check out our official minecraft modification gallery!">
+    <meta property="og:image" content="https://raw.githubusercontent.com/northwesttrees-gaming/northwesttrees-gaming.github.io/main/files/img/social-img/nwtg-automation-social-img.png">
+    <meta property="og:url" content="https://northwesttrees-gaming.github.io/mods/nwtg-automation/gallery.html">
+    <meta name="twitter:title" content="NWTG Automation | Gallery">
+    <meta name="twitter:description" content="Check out our official minecraft modification gallery!">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/northwesttrees-gaming/northwesttrees-gaming.github.io/main/files/img/social-img/nwtg-automation-social-img.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../../files/img/favicons/nwtg-automation.png"/>
+    <link rel="stylesheet" href="../../files/css/defualt.css">
+    <link rel="stylesheet" href="../../files/css/styles.css">
+    <link rel="stylesheet" href="../../files/css/font.css">
+    <link rel="stylesheet" href="../../files/css/menu.css">
+    <link rel="stylesheet" href="../../files/css/aside.css">
+    <link rel="stylesheet" href="../../files/css/header.css">
+    <link rel="stylesheet" href="../../files/css/article.css">
+    <link rel="stylesheet" href="../../files/css/footer.css">
+    <script src="../../files/js/menu.js"></script> 
+  </head>
+  <body class="background">
+ 
+    <!-- HEADER SECTION -->
+    <div class="col-12 col-s-12 header">
+      <div class="header-box">
+        <div class="header-content">
+          <h1>NWTG Automation</h1>
         </div>
       </div>
     </div>
-  </div>
-
-</div>
 
 
-<!-- RIGHT BAR SECTION -->
-<div class="col-3 col-s-4 right-column">
+    <!-- LEFT BAR SECTION -->
+    <div class="col-3 col-s-4 left-column">
 
-  <!-- RIGHT ASIDE -->
-  <div class="aside-right show-on-mobile show-on-desktop hide-on-tablet">
-    <div class="aside-box">
-      <div class="aside-titlebar"><h4>Mod Sites</h4></div>
-      <div class="aside-content">
-        <ul>
-          <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
-          <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
-          <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
-        </ul>
+      <!-- MENU -->
+      <div class="menu">
+
+        <!-- SITE MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="mainMenuButton()">
+            <h4 style="display:inline-block;">Site Menu</h4>
+            <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="main-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../../index.html">Home</a></li>
+              <li><a class="inactive" href="../../minecraft-mods.html">Minecraft Mods</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- MOD MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="modMenuButton()">
+            <h4 style="display:inline-block;">Mod Menu</h4>
+            <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="mod-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../nwtg-automation.html">Mod Home</a></li>
+              <li><a class="inactive" href="downloads.html">Downloads</a></li>
+              <li><a class="inactive" href="changelogs.html">Changelogs</a></li>
+              <li><a class="active" href="">Gallery</a></li>
+              <li><a class="inactive" href="upcoming.html">Upcoming</a></li>
+              <li><a class="inactive" href="wiki.html">Wiki</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- LEFT ASIDE -->
+      <div class="aside-left hide-on-mobile hide-on-desktop show-on-tablet">
+        <div class="aside-box">
+          <div class="aside-titlebar"><h4>Mod Sites</h4></div>
+          <div class="aside-content">
+            <ul>
+              <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
+              <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
+              <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- ARTICLE SECTION -->
+    <div class="col-6 col-s-8 article">
+
+      <div class="article-box">  
+        <!-- ARTICLE TITLEBAR -->
+        <div class="article-titlebar">
+          <h2>Gallery</h2>
+        </div>
+    
+        <!-- ARTICLE CONTENT -->    
+        <div class="article-content">
+          <div class="gallery-row">
+            <div class="gallery-column">
+              <img class="gallery" src="https://i.imgur.com/M5X5iI7.png" alt="Auto Crafting Machines" style="width:100%">
+              <img class="gallery" src="https://i.imgur.com/06lsIGT.png" alt="Auto Item Collector Machines" style="width:100%">
+            </div>
+            <div class="gallery-column">
+              <img class="gallery" src="https://i.imgur.com/5SG1J6x.png" alt="Auto Tree Farm Machines" style="width:100%">
+              <img class="gallery" src="https://i.imgur.com/UxESUZA.png" alt="Auto Farming Machines" style="width:100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- RIGHT BAR SECTION -->
+    <div class="col-3 col-s-4 right-column">
+
+      <!-- RIGHT ASIDE -->
+      <div class="aside-right show-on-mobile show-on-desktop hide-on-tablet">
+        <div class="aside-box">
+          <div class="aside-titlebar"><h4>Mod Sites</h4></div>
+          <div class="aside-content">
+            <ul>
+              <li><a class="inactive" href="https://mcreator.net/modification/76920/nwtg-automation">MCreator Page</a></li>
+              <li><a class="inactive" href="https://github.com/northwesttrees-gaming/NWTG-Automation">GitHub Repository</a></li>
+              <li><a class="inactive" href="https://www.youtube.com/watch?v=2eLalSnOnHo&list=PL5k7swYOU_yRoly-cK7T7JaSgWH054kxd&ab_channel=NorthWestTreesGaming">YouTube Playlist</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- FOOTER SECTION -->
+    <div class="col-12 col-s-12 footer">
+      <div class="footer-box">
+        <div class="footer-content">
+          <p>Check out our other website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
+        </div>
       </div>
     </div>
-  </div>
 
-</div>
-
-
-<!-- FOOTER SECTION -->
-<div class="col-12 col-s-12 footer">
-  <div class="footer-box">
-    <div class="footer-content">
-      <p>Check out our other website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
-    </div>
-  </div>
-</div>
-
-</body>
+  </body>
 </html>
