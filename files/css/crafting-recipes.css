@@ -93,7 +93,7 @@
 }
 
 [class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-image-"] {
-  background-image: url("https://i.imgur.com/pPzCuUM.png");
+  background-image: url("../img/recipe-icons/minecraft/minecraft-slot.png");
 }
 
 /* RECIPE GUI ITEMS */
@@ -102,30 +102,11 @@
   background-size: 65px; margin: 0px; padding: 0px; width:65px; height:65px; display: inline-block; float: left;
 }  
 
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] [class="crafting-item-image-craftingarrow"] {
-  background-image: url("https://i.imgur.com/jiKUpmj.png");
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] [class="crafting-img-crafting-arrow"] {
+  background-image: url("../img/recipe-icons/minecraft/crafting-arrow.png");
 }
 
 /* RECIPE ITEMS */
-  /* CRAFTING TABLE */
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-craftingtable {
-  background-image: url("https://i.imgur.com/XM5x3Gh.png");
-}
-  /* AUTO CRAFTING MACHINE */
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-autocraftingmachine {
-  background-image: url("https://i.imgur.com/x4KZl5g.png");
-}
-
-  /* MACHINE  BLOCK*/
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-machineblock {
-  background-image: url("https://i.imgur.com/XO51T9U.png");
-}
-
-  /* DISPENSER */
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-item-image-dispenser {
-  background-image: url("https://i.imgur.com/ExGCyZ2.png");
-}
-
   /* ALUMINUM AXE */
 [class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-axe {
   background-image: url("../img/recipe-icons/automation/aluminum-axe.png");
