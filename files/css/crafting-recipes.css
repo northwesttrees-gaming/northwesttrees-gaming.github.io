@@ -28,7 +28,7 @@
 
 .crafting-block { 
   background-color: #C6C6C6;
-  margin: 0px 0px 30px 0px; padding: 15px; width: 365px; height: 270px;
+  margin: 7.5px; padding: 15px; width: 365px; height: 270px;
   display: inline-block; float: left;
   border-top: 5px solid #FFFFFF; border-left: 5px solid #FFFFFF; border-bottom: 5px solid #373737; border-right: 5px solid #373737; border-radius: 25px;
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
@@ -102,8 +102,12 @@
   background-size: 65px; margin: 0px; padding: 0px; width:65px; height:65px; display: inline-block; float: left;
 }  
 
-[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] [class="crafting-img-crafting-arrow"] {
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-crafting-arrow {
   background-image: url("../img/recipe-icons/minecraft/crafting-arrow.png");
+}
+
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-furnace-fire {
+  background-image: url("../img/recipe-icons/minecraft/furnace-fire.png");
 }
 
 /* RECIPE ITEMS */
@@ -112,12 +116,82 @@
   background-image: url("../img/recipe-icons/automation/aluminum-axe.png");
 }
 
+  /* ALUMINUM BOOTS */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-boots {
+  background-image: url("../img/recipe-icons/automation/aluminum-boots.png");
+}
+  /* ALUMINUM CHESTPLATE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-chestplate {
+  background-image: url("../img/recipe-icons/automation/aluminum-chestplate.png");
+}
+
+  /* ALUMINUM HELMET */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-helmet {
+  background-image: url("../img/recipe-icons/automation/aluminum-helmet.png");
+}
+
+  /* ALUMINUM HOE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-hoe {
+  background-image: url("../img/recipe-icons/automation/aluminum-hoe.png");
+}
+
   /* ALUMINUM INGOT */
 [class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-ingot {
   background-image: url("../img/recipe-icons/automation/aluminum-ingot.png");
+}
+
+  /* ALUMINUM LEGGINGS */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-leggings {
+  background-image: url("../img/recipe-icons/automation/aluminum-leggings.png");
+}
+
+  /* ALUMINUM NUGGET */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-nugget {
+  background-image: url("../img/recipe-icons/automation/aluminum-nugget.png");
+}
+
+  /* ALUMINUM PICKAXE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-pickaxe {
+  background-image: url("../img/recipe-icons/automation/aluminum-pickaxe.png");
+}
+
+  /* ALUMINUM SHOVEL */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-shovel {
+  background-image: url("../img/recipe-icons/automation/aluminum-shovel.png");
+}
+
+  /* ALUMINUM SHOVEL */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-aluminum-sword {
+  background-image: url("../img/recipe-icons/automation/aluminum-sword.png");
+}
+  /* COAL */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-coal {
+  background-image: url("../img/recipe-icons/minecraft/coal.png");
+}
+
+  /* MACHINE WRENCH */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-machine-wrench {
+  background-image: url("../img/recipe-icons/automation/machine-wrench.png");
+}
+
+  /* PAPER */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-paper {
+  background-image: url("../img/recipe-icons/minecraft/paper.png");
+}
+
+  /* RED DYE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-red-dye {
+  background-image: url("../img/recipe-icons/minecraft/red-dye.png");
 }
 
   /* STICK */
 [class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-stick {
   background-image: url("../img/recipe-icons/minecraft/stick.png");
 }
+
+  /* TECHNOLOGY SCROLL */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-technology-scroll {
+  background-image: url("../img/recipe-icons/automation/technology-scroll.png");
+}
+
+

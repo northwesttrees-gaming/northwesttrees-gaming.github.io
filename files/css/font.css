@@ -12,6 +12,7 @@
   .fs-important {color: #257C7C; font-weight: bold;}
   .fs-warning {color: #CCB13D; font-weight: bold;}
   .fs-error {color: #992D2D; font-weight: bold;}
+  .fs-clear {padding:5px 0px; margin:0px;}
   
 @media only screen and (min-width: 600px) {
   /* For tablets: */
