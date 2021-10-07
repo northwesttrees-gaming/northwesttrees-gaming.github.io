@@ -194,4 +194,17 @@
   background-image: url("../img/recipe-icons/automation/technology-scroll.png");
 }
 
+  /* DISPENSER */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-dispenser {
+  background-image: url("../img/recipe-icons/minecraft/dispenser.png");
+}
 
+  /* MACHINE BLOCK */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-machine-block {
+  background-image: url("../img/recipe-icons/automation/machine-block.png");
+}
+
+  /* AUTO FARMING MACHINE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-auto-farming-machine {
+  background-image: url("../img/recipe-icons/automation/auto-farming-machine.png");
+}
