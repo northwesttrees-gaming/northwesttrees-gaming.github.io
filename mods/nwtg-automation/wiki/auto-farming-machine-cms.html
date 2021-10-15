@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NWTG Automation Wiki</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Minecraft,Mods,Wiki,NWTG Automation,Auto Farming Machine">
+    <meta name="description" content="Learn about the Auto Farming Machine in the minecraft mod NWTG Automation.">
+    <meta name="author" content="NorthWestTrees Gaming">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NWTG Automation Wiki | Auto Farming Machine">
+    <meta property="og:description" content="Learn about the Auto Farming Machine in the minecraft mod NWTG Automation.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/northwesttrees-gaming/northwesttrees-gaming.github.io/main/files/img/social-img/nwtg-automation-wiki-social-img.png">
+    <meta property="og:url" content="https://northwesttrees-gaming.github.io/mods/nwtg-automation/wiki/auto-farming-machine.html">
+    <meta name="twitter:title" content="NWTG Automation Wiki | Auto Farming Machine">
+    <meta name="twitter:description" content="Learn about the Auto Farming Machine in the minecraft mod NWTG Automation.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/northwesttrees-gaming/northwesttrees-gaming.github.io/main/files/img/social-img/nwtg-automation-wiki-social-img.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/png" href="../../../files/img/favicons/nwtg-automation.png"/>
+    <link rel="stylesheet" href="../../../files/css/defualt.css">
+    <link rel="stylesheet" href="../../../files/css/styles.css">
+    <link rel="stylesheet" href="../../../files/css/font.css">
+    <link rel="stylesheet" href="../../../files/css/menu.css">
+    <link rel="stylesheet" href="../../../files/css/aside.css">
+    <link rel="stylesheet" href="../../../files/css/header.css">
+    <link rel="stylesheet" href="../../../files/css/article.css">
+    <link rel="stylesheet" href="../../../files/css/footer.css">
+    <link rel="stylesheet" href="../../../files/css/crafting-recipes.css">
+    <script src="../../../files/js/menu.js"></script> 
+  </head>
+  <body class="background">
+
+    <!-- HEADER SECTION -->
+    <div class="col-12 col-s-12 header">
+      <div class="header-box">
+        <div class="header-content">
+          <h1>NWTG Automation Wiki</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEFT BAR SECTION -->
+    <div class="col-3 col-s-4 left-column">
+
+      <!-- MENU -->
+      <div class="menu">
+
+        <!-- SITE MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="mainMenuButton()">
+            <h4 style="display:inline-block;">Site Menu</h4>
+            <h4 id="main-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="main-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="main-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../../../index.html">Home</a></li>
+              <li><a class="inactive" href="../../../minecraft-mods.html">Minecraft Mods</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- MOD MENU -->
+        <div class="menu-box">
+          <div class="menu-titlebar" onclick="modMenuButton()">
+            <h4 style="display:inline-block;">Mod Menu</h4>
+            <h4 id="mod-menu-button-1" style="display:inline-block; float:right;">▼</h4>
+            <h4 id="mod-menu-button-2" style="display:none; float:right;">▲</h4>
+          </div>
+          <div id="mod-menu-button-0" class="menu-content" style="display:none;">
+            <ul>
+              <li><a class="inactive" href="../../nwtg-automation.html">Mod Home</a></li>
+              <li><a class="inactive" href="../downloads.html">Downloads</a></li>
+              <li><a class="inactive" href="../changelogs.html">Changelogs</a></li>
+              <li><a class="inactive" href="../gallery.html">Gallery</a></li>
+              <li><a class="inactive" href="../upcoming.html">Upcoming</a></li>
+              <li><a class="active" href="../wiki.html">Wiki</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <!-- LEFT ASIDE -->
+      <div class="aside-left show-on-mobile hide-on-desktop show-on-tablet">
+        <div class="aside-box">
+        <div class="aside-titlebar"><h4>Page Index</h4></div>
+          <div class="aside-content">
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#setting-variables">Setting Variables</a></li>
+              <li><a href="#group-name">Group Name</a></li>
+              <li><a href="#use-custom-script">Use Custom Script</a></li>
+              <li><a href="#age">Age</a></li>
+              <li><a href="#age-reset">Age Reset</a></li>
+              <li><a href="#replace-mode">Replace Mode</a></li>
+              <li><a href="#group-type">Group Type</a></li>
+              <li><a href="#bonus-yield">Bonus Yield</a></li>
+              <li><a href="#harvest-mode">Harvest Mode</a></li>
+              <li><a href="#related-pages">Related Pages</a></li>
+              <li><a href="#changes">Changes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ARTICLE SECTION -->
+    <div class="col-6 col-s-8 article">
+    
+      <div class="article-box">
+
+        <!-- ARTICLE TITLEBAR -->
+        <div class="article-titlebar">
+          <h2>Wiki - Auto Farming Machine | Cross Mod Support</h2>
+        </div>
+
+        <!-- ARTICLE CONTENT -->
+        <div class="article-content">
+          <h3 id="overview">Overview</h3>
+          <table><tr>
+          <td><img src="../../../files/img/recipe-icons/automation/auto-farming-machine.png" style="width:128px; height:128px; display:inline;"/></td>
+          <td><p>
+          As of version 0.4.0 support was added to the Auto Farming Machine for allowing custom crops to be harvested using items and blocks with NBT variables.
+          It is possible to even add support for global crops or use namespaces in group names to isolate your mod crops in Automation so that its more specific.
+          This page will explain the variables used for both the mature block, and the two items versions.
+          <br><br>
+          It its also possible to make items with only seed slot support, this acts similar to how potatoes or pumpkins function with Automation.
+          It is really customisable as we have made most of the code able for customizing for third party mods using NBT variable settings on your item and block side.
+          <br><br>
+          If you want to know more about the Auto Farming machine you can read this <a href="auto-farming-machine.html">article</a> for more information on the machine instead.
+          </p></td>
+          </tr></table>
+          
+          <div class="h-line-dash"></div>
+          
+          <h3 id="setting-variables">Setting Variables</h3>
+          <p>
+          You can apply the variables on your mod side however you like, however its recommended that you have them on a block or item tick update so that they can sync properly.
+          Most items have a <b style="color:gold">When item in inventory tick</b> trigger that can be used to assign item NBT variables to your custom item.
+          <br><br>
+          Blocks also have a option for this too called <b style="color:gold">Update tick</b> trigger in MCreator, that allows you to run script on a tick update.
+          </p>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/when-item-in-inventory-tick-trigger.png" style="padding:10px; width:auto; height:148px; display:inline;" alt="When item in inventory tick trigger"/>
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/update-tick-trigger.png" style="padding:10px; width:auto; height:148px; display:inline;" alt="Update tick trigger"/>
+          
+          <div class="h-line-dash"></div>
+
+          <h3 id="group-name">Group Name</h3>
+          <p>
+          Grouping the mature block stage, seed item, and crop item with the string NBT tag of <b style="color:gold">autoFarmingGroupName</b> allows for telling the auto farming machine
+          what items are supported for its yield and what blocks can be harvested. This can be any value you wish to use, if you want to seperate your mod from other mods a bit more and avoid overlapping
+          blocks and yield items its possible to use your mod's namespace before the group name like seed below.
+          <br><br>
+          "<b style="color:gold">mod_namespace:group_name</b>"
+          <br><br>
+          You can also use group names without namespaces for global support similar to how forge tags work.
+          <br><br>
+          "<b style="color:gold">group_name</b>"
+          <br><br>
+          The group name needs to be defined for both your items and mature block stage. Your growth stages should NOT have this tag, when usinge stage resetting its important to clear the group name from lower
+          growth stages so the block does not continue to be harvested at lower growth stages.
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingGroupName</td>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>Any</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Mature Block</li>
+                  <li>Seed Item</li>
+                  <li>Crop Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-group-name-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Item auto farming group name tag"/>
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/block-auto-farming-group-name-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Block auto farming group name tag"/>
+          
+          <div class="h-line-dash"></div>
+          
+          <h3 id="use-custom-script">Use Custom Script</h3>
+          <p>
+          The one most important NBT variable needed is the <b style="color:gold">autoFarmingUseCustomScript</b> a logic NBT variable, this allows you to enable custom crops for the seed, crop, and mature block.
+          To use custom crops the value <b style="color:gold">must be set to ture</b>. This allows the auto farming machine to switch from minecraft crops to custom crops modes. The false value will disable the custom crops.
+          and instead use the built-in vanilia script instead.
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingUseCustomScript</td>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>True: Enables Custom Crops</td>
+              <td>Logic</td>
+              <td>
+                <ul>
+                  <li>Mature Block</li>
+                  <li>Seed Item</li>
+                  <li>Crop Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>False: Disables Custom Crops</td>
+              <td>Logic</td>
+              <td>
+                <ul>
+                  <li>Mature Block</li>
+                  <li>Seed Item</li>
+                  <li>Crop Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-use-custom-script-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Item auto farming use custom script tag"/>
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/block-auto-farming-use-custom-script-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Block auto farming use custom script tag"/>
+          
+          <div class="h-line-dash"></div>
+          
+          <h3 id="age">Age</h3>
+          <p>
+          This value is used when using the REPLACE MODE STAGE value <b style="color:gold">autoFarmingAge</b>. This number NBT value is sent to the block that is detected.
+          After the value is sent to your block it is possible to test if the value is the same as your seed's <b style="color:gold">age reset</b> NBT variable number if true then you can use the block's tick
+          update to do something with your block such as reset the block to a lower stage.
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingAge</td>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>Any Number ≥ 0</td>
+              <td>Number</td>
+              <td>
+                <ul>
+                  <li>Mature Block</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/block-auto-farming-age-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Block auto farming age tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="age-reset">Age Reset</h3>
+          <p>
+          This NBT number variable <b style="color:gold">autoFarmingAgeReset</b>, is used to store the stage retun value which is read by auto mations then applied to the <b style="color:gold">age</b> variable of
+          your custom block. Do take note that your custom crop blocks do need to be a tile entity to use the stage feature. Read more the age section above for more on what to do when the age is set. This is only used
+          if you used under the <b style="color:gold">replace mode stages</b> option if you use air or water it is not required.
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingAgeReset</td>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>Any Number ≥ 0</td>
+              <td>Number</td>
+              <td>
+                <ul>
+                  <li>Mature Block</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-age-reset-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Block auto farming age reset tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="replace-mode">Replace Mode</h3>
+          <p>
+          This NBT string variable <b style="color:gold">autoFarmingReplaceMode</b>, controls the block action on what to do with the block after the items are added to the block's slots.
+          </p>
+          
+          <ul>
+            <li><b style="color:gold">Air</b>: The mature block will be replaced with an air block. Great for land plants.</li>
+            <li><b style="color:gold">Stage</b>: Automation will set the mature block's autoFarmingAge value as the same seed NBT value from it's autoFarmingAgeReset number. </li>
+            <li><b style="color:gold">Water</b>: The mature block will be replaced with an air block. Great for water plants.</li>
+          </ul>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingReplaceMode</td>
+            </tr>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>air</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>stage</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>water</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-replace-mode-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Block auto farming replace mode tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="group-type">Group Type</h3>
+          <p>
+          This NBT string tag <b style="color:gold">autoFarmingGroupType</b>, is used to tell automation what slot the item should be used for.
+          Not defining the value will prevent automation from knowing what slot it should be used for.
+          <ul>
+            <li><b style="color:gold">Seed</b>: The item will only work in the seed slot and only requires seed item variables.</li>
+            <li><b style="color:gold">Crop</b>: The item will only work in the crop slot and only requires crop item variables.</li>
+            <li><b style="color:gold">Both</b>: The item will work in both seed and crop slots and requires both seed and crop item variables.</li>
+          </ul>
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingGroupType</td>
+            </tr>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>crop</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>seed</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>both</td>
+              <td>String</td>
+              <td>
+                <ul>
+                  <li>Both Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-group-type-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Item auto farming group type tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="bonus-yield">Bonus Yield</h3>
+          <p>
+          This NBT logic tag <b style="color:gold">autoFarmingSeedBonusYield</b> and the <b style="color:gold">autoFarmingCropBonusYield</b>, is used in automation to enable or disable the bonus yield from
+          upgrades if they are installed in the upgrade slot. It is possible to disable either slot or both by setting the value to false. Use true if you wish to keep the bonus yield mechanics that the machine
+          has normally.
+          <ul>
+            <li><b style="color:gold">True</b>: Enables bonus yield for upgrades</li>
+            <li><b style="color:gold">False</b>: Disables bonus yield for upgrades</li>
+          </ul>
+          </p>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingSeedBonusYield</td>
+            </tr>
+            <tr>
+              <td>autoFarmingCropBonusYield</td>
+            </tr>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>true</td>
+              <td>logic</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>false</td>
+              <td>logic</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-bonus-yield-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Item auto farming crop bonus yield tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="harvest-mode">Harvest Mode</h3>
+          <p>
+          This NBT string tag <b style="color:gold">autoFarmingSeedHarvestMode</b> and the <b style="color:gold">autoFarmingCropHarvestMode</b>, is used to tell automation what the yield should be for harvesting the
+          items and the value to put in the slots. This value can not be custom but instead uses vanilla preset values that can be used for yield presets. It is possible to make many kinds of crops using these settings.
+          </p>
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">TAG</td>
+            </tr>
+            <tr>
+              <td>autoFarmingSeedHarvestMode</td>
+            </tr>
+            <tr>
+              <td>autoFarmingCropHarvestMode</td>
+            </tr>
+          </table>
+          
+          <table class="basic-table" style="margin-bottom:20px; width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">ELEMENTS</td>
+              <td style="color:gold;">NOTES</td>
+            </tr>
+            <tr>
+              <td>berry</td>
+              <td>Mature Sweet Berry</td>
+              <td>
+                <ul>
+                  <li>Random value of (2 : 50%), (3 : 50%)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>cocoa</td>
+              <td>Mature Cocoa Pod</td>
+              <td>
+                <ul>
+                  <li>Value of (3)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>melon</td>
+              <td>Melon Block</td>
+              <td>
+                <ul>
+                  <li>Random value of (3 : 20%), (4 : 20%), (5 : 20%), (6 : 20%), (7 : 20%)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>netherwart</td>
+              <td>Mature Netherwart Block</td>
+              <td>
+                <ul>
+                  <li>Random value of (2 : 33%), (3 : 33%), (4 : 33%)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>potato</td>
+              <td>Mature Potato / Carrot Crops</td>
+              <td>
+                <ul>
+                  <li>Random value of (0 : 7.8%), (1 : 31.4%), (2 : 41.9%), (3 : 18.6%) + (2 : 100%)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>sugarcane</td>
+              <td>
+              <ul>
+                  <li>Sugarcane</li>
+                  <li>Pumpkins</li>
+                  <li>Both Mushrooms</li>
+                  <li>All Vines</li>
+                  <li>Bamboo</li>
+                  <li>Kelp</li>
+                  <li>Cactus</li>
+                </ul>
+              <td>
+                <ul>
+                  <li>Value of (1)</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>wheat</td>
+              <td>Mature Wheat / Beetroot Crops</td>
+              <td>
+                <ul>
+                  <li>Random value of (0 : 7.8%), (1 : 31.4%), (2 : 41.9%), (3 : 18.6%)</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <table class="basic-table" style="width:100%;">
+            <tr>
+              <td style="color:gold;">VALUES</td>
+              <td style="color:gold;">TYPE</td>
+              <td style="color:gold;">ELEMENTS</td>
+            </tr>
+            <tr>
+              <td>berry</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>cocoa</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>melon</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>netherwart</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>potato</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>sugarcane</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>wheat</td>
+              <td>string</td>
+              <td>
+                <ul>
+                  <li>Crop Item</li>
+                  <li>Seed Item</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          
+          <img src="../../../files/img/wiki/automation/auto-farming-machine-cms/item-auto-farming-harvest-mode-tag.png" style="padding-top:20px; width:80%; height:80%; display:inline;" alt="Item auto farming harvest mode tag"/>
+
+          <div class="h-line-dash"></div>
+          
+          <h3 id="related-pages">Releated Pages</h3>
+          <p>Below are a list of related wiki pages.</p>
+          <ul>
+            <li><a href="auto-farming-machine.html">Auto Farming Machine</a></li>
+            <li><a href="upgrades.html">Upgrades</a></li>
+          </ul>
+          
+          <div class="h-line-dash"></div>
+
+          <h3 id="changes">Changes</h3>
+          <p>Below are a list of changes made to the block.</p>
+          <ul>
+            <li> NWTG Automation 0.4.0
+              <ul>
+                <li>Added support for groups</li>
+                <li>Added support for group types</li>
+                <li>Added support for block replacement</li>
+                <li>Added support for block stages</li>
+                <li>Added support for upgrade bonus yield</li>
+                <li>Added support for harvest yield</li>
+                <li>Added support for enableing custom script</li>
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT BAR SECTION -->
+    <div class="col-3 col-s-4 right-column">
+      <!-- RIGHT ASIDE -->
+      <div class="aside-right hide-on-mobile show-on-desktop hide-on-tablet">
+        <div class="aside-box">
+          <div class="aside-titlebar">
+            <h4>Page Index</h4>
+          </div>
+          <div class="aside-content">
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#setting-variables">Setting Variables</a></li>
+              <li><a href="#group-name">Group Name</a></li>
+              <li><a href="#use-custom-script">Use Custom Script</a></li>
+              <li><a href="#age">Age</a></li>
+              <li><a href="#age-reset">Age Reset</a></li>
+              <li><a href="#replace-mode">Replace Mode</a></li>
+              <li><a href="#group-type">Group Type</a></li>
+              <li><a href="#bonus-yield">Bonus Yield</a></li>
+              <li><a href="#harvest-mode">Harvest Mode</a></li>
+              <li><a href="#related-pages">Related Pages</a></li>
+              <li><a href="#changes">Changes</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="col-12 col-s-12 footer">
+      <div class="footer-box">
+        <div class="footer-content">
+          <p>Check out our other website <a href="https://www.northwesttreesgaming.com/">www.northwesttreesgaming.com</a></p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

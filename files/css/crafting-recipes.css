@@ -208,3 +208,81 @@
 [class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-auto-farming-machine {
   background-image: url("../img/recipe-icons/automation/auto-farming-machine.png");
 }
+
+  /* PLANKS */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-planks {
+  background-image: url("../img/recipe-icons/minecraft/planks.png");
+}
+
+  /* STONE ALL */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-stone-all {
+  background-image: url("../img/recipe-icons/minecraft/stone-all.png");
+}
+
+  /* IRON INGOT */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-iron-ingot {
+  background-image: url("../img/recipe-icons/minecraft/iron-ingot.png");
+}
+
+  /* GOLD INGOT */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-gold-ingot {
+  background-image: url("../img/recipe-icons/minecraft/gold-ingot.png");
+}
+
+  /* DIAMOND INGOT */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-diamond {
+  background-image: url("../img/recipe-icons/minecraft/diamond.png");
+}
+
+  /* NETHERITE INGOT */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-minecraft-netherite-ingot {
+  background-image: url("../img/recipe-icons/minecraft/netherite-ingot.png");
+}
+
+  /* WOODEN UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-wooden-upgrade {
+  background-image: url("../img/recipe-icons/automation/wooden-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+  /* STONE UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-stone-upgrade {
+  background-image: url("../img/recipe-icons/automation/stone-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+  /* IRON UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-iron-upgrade {
+  background-image: url("../img/recipe-icons/automation/iron-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+  /* GOLDEN UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-golden-upgrade {
+  background-image: url("../img/recipe-icons/automation/golden-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+  /* DIAMOND UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-diamond-upgrade {
+  background-image: url("../img/recipe-icons/automation/diamond-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
+
+  /* NETHERITE UPGRADE */
+[class="crafting-block"] [class="crafting-grid"] [class*="crafting-column-"] [class*="crafting-row-"] [class*="crafting-slot-"] .crafting-img-automation-netherite-upgrade {
+  background-image: url("../img/recipe-icons/automation/netherite-upgrade.png");
+  background-size: 80%;
+  background-repeat:no-repeat;
+  background-position:6px;
+}
