@@ -9,7 +9,7 @@
     "0.4.0": " - Added auto farming machine support for (vines, twisting vines, and weeping vines)\n - Added auto farming machine support for (brown and red mushrooms)\n - Added auto farming support for custom crops."
   },
   "promos": {
-    "1.16.5-latest": "0.3.0",
+    "1.16.5-latest": "0.4.0",
     "1.16.5-recommended": "0.3.0"
   }
 }
